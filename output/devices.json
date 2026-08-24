@@ -1,0 +1,1554 @@
+[
+  {
+    "id": 1,
+    "model_id": "iPad13,18",
+    "market_name": "iPad (10th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "model_id": "iPad13,19",
+    "market_name": "iPad (10th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 3,
+    "model_id": "iPad14,8",
+    "market_name": "iPad Air 11-inch (M2)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 4,
+    "model_id": "iPad14,9",
+    "market_name": "iPad Air 11-inch (M2)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 5,
+    "model_id": "iPad14,10",
+    "market_name": "iPad Air 13-inch (M2)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 6,
+    "model_id": "iPad14,11",
+    "market_name": "iPad Air 13-inch (M2)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 7,
+    "model_id": "iPad15,3",
+    "market_name": "iPad Air 11-inch (M3)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 8,
+    "model_id": "iPad15,4",
+    "market_name": "iPad Air 11-inch (M3)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 9,
+    "model_id": "iPad15,5",
+    "market_name": "iPad Air 13-inch (M3)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 10,
+    "model_id": "iPad15,6",
+    "market_name": "iPad Air 13-inch (M3)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 11,
+    "model_id": "iPad15,7",
+    "market_name": "iPad (A16)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 12,
+    "model_id": "iPad15,8",
+    "market_name": "iPad (A16)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 13,
+    "model_id": "iPad16,3",
+    "market_name": "iPad Pro 11-inch (M4)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 14,
+    "model_id": "iPad16,4",
+    "market_name": "iPad Pro 11-inch (M4)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 15,
+    "model_id": "iPad16,5",
+    "market_name": "iPad Pro 13-inch (M4)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 16,
+    "model_id": "iPad16,6",
+    "market_name": "iPad Pro 13-inch (M4)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 17,
+    "model_id": "iPad16,8",
+    "market_name": "iPad Air 11-inch (M4)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 18,
+    "model_id": "iPad16,9",
+    "market_name": "iPad Air 11-inch (M4)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 19,
+    "model_id": "iPad16,10",
+    "market_name": "iPad Air 13-inch (M4)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 20,
+    "model_id": "iPad16,11",
+    "market_name": "iPad Air 13-inch (M4)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 21,
+    "model_id": "iPad17,1",
+    "market_name": "iPad Pro 11-inch (M5)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 22,
+    "model_id": "iPad17,2",
+    "market_name": "iPad Pro 11-inch (M5)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 23,
+    "model_id": "iPad17,3",
+    "market_name": "iPad Pro 13-inch (M5)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 24,
+    "model_id": "iPad17,4",
+    "market_name": "iPad Pro 13-inch (M5)",
+    "platform": "iOS",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 25,
+    "model_id": "iPad2,1",
+    "market_name": "iPad 2",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 26,
+    "model_id": "iPad2,2",
+    "market_name": "iPad 2",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 27,
+    "model_id": "iPad2,3",
+    "market_name": "iPad 2",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 28,
+    "model_id": "iPad2,4",
+    "market_name": "iPad 2",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 29,
+    "model_id": "iPad2,5",
+    "market_name": "iPad mini",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 30,
+    "model_id": "iPad2,6",
+    "market_name": "iPad mini",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 31,
+    "model_id": "iPad2,7",
+    "market_name": "iPad mini",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 32,
+    "model_id": "iPad3,1",
+    "market_name": "iPad (3rd generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 33,
+    "model_id": "iPad3,2",
+    "market_name": "iPad (3rd generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 34,
+    "model_id": "iPad3,3",
+    "market_name": "iPad (3rd generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 35,
+    "model_id": "iPad3,4",
+    "market_name": "iPad (4th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 36,
+    "model_id": "iPad3,5",
+    "market_name": "iPad (4th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 37,
+    "model_id": "iPad3,6",
+    "market_name": "iPad (4th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 38,
+    "model_id": "iPad4,1",
+    "market_name": "iPad Air",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 39,
+    "model_id": "iPad4,2",
+    "market_name": "iPad Air",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 40,
+    "model_id": "iPad4,3",
+    "market_name": "iPad Air",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 41,
+    "model_id": "iPad4,4",
+    "market_name": "iPad mini 2",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 42,
+    "model_id": "iPad4,5",
+    "market_name": "iPad mini 2",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 43,
+    "model_id": "iPad4,6",
+    "market_name": "iPad mini 2",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 44,
+    "model_id": "iPad4,7",
+    "market_name": "iPad mini 3",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 45,
+    "model_id": "iPad4,8",
+    "market_name": "iPad mini 3",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 46,
+    "model_id": "iPad4,9",
+    "market_name": "iPad mini 3",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 47,
+    "model_id": "iPad5,1",
+    "market_name": "iPad mini 4",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 48,
+    "model_id": "iPad5,2",
+    "market_name": "iPad mini 4",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 49,
+    "model_id": "iPad5,3",
+    "market_name": "iPad Air 2",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 50,
+    "model_id": "iPad5,4",
+    "market_name": "iPad Air 2",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 51,
+    "model_id": "iPad6,3",
+    "market_name": "iPad Pro 9.7-inch",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 52,
+    "model_id": "iPad6,4",
+    "market_name": "iPad Pro 9.7-inch",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 53,
+    "model_id": "iPad6,7",
+    "market_name": "iPad Pro 12-inch",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 54,
+    "model_id": "iPad6,8",
+    "market_name": "iPad Pro 12-inch",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 55,
+    "model_id": "iPad6,11",
+    "market_name": "iPad (5th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 56,
+    "model_id": "iPad6,12",
+    "market_name": "iPad (5th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 57,
+    "model_id": "iPad7,1",
+    "market_name": "iPad Pro 12-inch (2nd generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 58,
+    "model_id": "iPad7,2",
+    "market_name": "iPad Pro 12-inch (2nd generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 59,
+    "model_id": "iPad7,3",
+    "market_name": "iPad Pro 10.5-inch",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 60,
+    "model_id": "iPad7,4",
+    "market_name": "iPad Pro 10.5-inch",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 61,
+    "model_id": "iPad7,5",
+    "market_name": "iPad (6th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 62,
+    "model_id": "iPad7,6",
+    "market_name": "iPad (6th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 63,
+    "model_id": "iPad7,11",
+    "market_name": "iPad (7th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 64,
+    "model_id": "iPad7,12",
+    "market_name": "iPad (7th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 65,
+    "model_id": "iPad8,1",
+    "market_name": "iPad Pro 11-inch",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 66,
+    "model_id": "iPad8,2",
+    "market_name": "iPad Pro 11-inch",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 67,
+    "model_id": "iPad8,3",
+    "market_name": "iPad Pro 11-inch",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 68,
+    "model_id": "iPad8,4",
+    "market_name": "iPad Pro 11-inch",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 69,
+    "model_id": "iPad8,5",
+    "market_name": "iPad Pro 12.9-inch (3rd generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 70,
+    "model_id": "iPad8,6",
+    "market_name": "iPad Pro 12.9-inch (3rd generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 71,
+    "model_id": "iPad8,7",
+    "market_name": "iPad Pro 12.9-inch (3rd generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 72,
+    "model_id": "iPad8,8",
+    "market_name": "iPad Pro 12.9-inch (3rd generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 73,
+    "model_id": "iPad8,9",
+    "market_name": "iPad Pro 11-inch (2nd generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 74,
+    "model_id": "iPad8,10",
+    "market_name": "iPad Pro 11-inch (2nd generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 75,
+    "model_id": "iPad8,11",
+    "market_name": "iPad Pro 12.9-inch (4th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 76,
+    "model_id": "iPad8,12",
+    "market_name": "iPad Pro 12.9-inch (4th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 77,
+    "model_id": "iPad11,1",
+    "market_name": "iPad mini (5th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 78,
+    "model_id": "iPad11,2",
+    "market_name": "iPad mini (5th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 79,
+    "model_id": "iPad11,3",
+    "market_name": "iPad Air (3rd generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 80,
+    "model_id": "iPad11,4",
+    "market_name": "iPad Air (3rd generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 81,
+    "model_id": "iPad11,6",
+    "market_name": "iPad (8th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 82,
+    "model_id": "iPad11,7",
+    "market_name": "iPad (8th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 83,
+    "model_id": "iPad12,1",
+    "market_name": "iPad (9th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 84,
+    "model_id": "iPad12,2",
+    "market_name": "iPad (9th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 85,
+    "model_id": "iPad13,1",
+    "market_name": "iPad Air (4th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 86,
+    "model_id": "iPad13,2",
+    "market_name": "iPad Air (4th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 87,
+    "model_id": "iPad13,4",
+    "market_name": "iPad Pro 11-inch (3rd generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 88,
+    "model_id": "iPad13,5",
+    "market_name": "iPad Pro 11-inch (3rd generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 89,
+    "model_id": "iPad13,6",
+    "market_name": "iPad Pro 11-inch (3rd generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 90,
+    "model_id": "iPad13,7",
+    "market_name": "iPad Pro 11-inch (3rd generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 91,
+    "model_id": "iPad13,8",
+    "market_name": "iPad Pro 12.9-inch (5th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 92,
+    "model_id": "iPad13,9",
+    "market_name": "iPad Pro 12.9-inch (5th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 93,
+    "model_id": "iPad13,10",
+    "market_name": "iPad Pro 12.9-inch (5th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 94,
+    "model_id": "iPad13,11",
+    "market_name": "iPad Pro 12.9-inch (5th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 95,
+    "model_id": "iPad13,16",
+    "market_name": "iPad Air (5th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 96,
+    "model_id": "iPad13,17",
+    "market_name": "iPad Air (5th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 97,
+    "model_id": "iPad14,1",
+    "market_name": "iPad mini (6th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 98,
+    "model_id": "iPad14,2",
+    "market_name": "iPad mini (6th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 99,
+    "model_id": "iPad14,3",
+    "market_name": "iPad Pro 11-inch (4th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 100,
+    "model_id": "iPad14,4",
+    "market_name": "iPad Pro 11-inch (4th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 101,
+    "model_id": "iPad14,5",
+    "market_name": "iPad Pro 12.9-inch (6th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 102,
+    "model_id": "iPad14,6",
+    "market_name": "iPad Pro 12.9-inch (6th generation)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 103,
+    "model_id": "iPad16,1",
+    "market_name": "iPad mini (A17 Pro)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 104,
+    "model_id": "iPad16,2",
+    "market_name": "iPad mini (A17 Pro)",
+    "platform": "iOS",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 105,
+    "model_id": "SM-T730",
+    "market_name": "Galaxy Tab S7 FE",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 106,
+    "model_id": "SM-T733",
+    "market_name": "Galaxy Tab S7 FE",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 107,
+    "model_id": "SM-T735",
+    "market_name": "Galaxy Tab S7 FE",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 108,
+    "model_id": "SM-T735C",
+    "market_name": "Galaxy Tab S7 FE",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 109,
+    "model_id": "SM-T735N",
+    "market_name": "Galaxy Tab S7 FE",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 110,
+    "model_id": "SM-T736B",
+    "market_name": "Galaxy Tab S7 FE 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 111,
+    "model_id": "SM-T736N",
+    "market_name": "Galaxy Tab S7 FE 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 112,
+    "model_id": "SM-T737",
+    "market_name": "Galaxy Tab S7 FE",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 113,
+    "model_id": "SM-T738U",
+    "market_name": "Galaxy Tab S7 FE 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 114,
+    "model_id": "SM-T870",
+    "market_name": "Galaxy Tab S7",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 115,
+    "model_id": "SM-T875",
+    "market_name": "Galaxy Tab S7",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 116,
+    "model_id": "SM-T875N",
+    "market_name": "Galaxy Tab S7",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 117,
+    "model_id": "SM-T878U",
+    "market_name": "Galaxy Tab S7 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 118,
+    "model_id": "SM-T970",
+    "market_name": "Galaxy Tab S7+",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 119,
+    "model_id": "SM-T975",
+    "market_name": "Galaxy Tab S7+",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 120,
+    "model_id": "SM-T975N",
+    "market_name": "Galaxy Tab S7+",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 121,
+    "model_id": "SM-T976B",
+    "market_name": "Galaxy Tab S7+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 122,
+    "model_id": "SM-T976N",
+    "market_name": "Galaxy Tab S7+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 123,
+    "model_id": "SM-T978U",
+    "market_name": "Galaxy Tab S7+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:31:11Z"
+  },
+  {
+    "id": 124,
+    "model_id": "SM-X400",
+    "market_name": "Galaxy Tab S10 Lite",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 125,
+    "model_id": "SM-X406B",
+    "market_name": "Galaxy Tab S10 Lite 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 126,
+    "model_id": "SM-X406N",
+    "market_name": "Galaxy Tab S10 Lite 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 127,
+    "model_id": "SM-X510",
+    "market_name": "Galaxy Tab S9 FE",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 128,
+    "model_id": "SM-X516B",
+    "market_name": "Galaxy Tab S9 FE 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 129,
+    "model_id": "SM-X516C",
+    "market_name": "Galaxy Tab S9 FE 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 130,
+    "model_id": "SM-X516N",
+    "market_name": "Galaxy Tab S9 FE 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 131,
+    "model_id": "SM-X518U",
+    "market_name": "Galaxy Tab S9 FE 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 132,
+    "model_id": "SM-X520",
+    "market_name": "Galaxy Tab S10 FE",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 133,
+    "model_id": "SM-X526B",
+    "market_name": "Galaxy Tab S10 FE 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 134,
+    "model_id": "SM-X526C",
+    "market_name": "Galaxy Tab S10 FE 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 135,
+    "model_id": "SM-X526E",
+    "market_name": "Galaxy Tab S10 FE 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 136,
+    "model_id": "SM-X526N",
+    "market_name": "Galaxy Tab S10 FE 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 137,
+    "model_id": "SM-X528U",
+    "market_name": "Galaxy Tab S10 FE 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 138,
+    "model_id": "SM-X610",
+    "market_name": "Galaxy Tab S9 FE+",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 139,
+    "model_id": "SM-X616B",
+    "market_name": "Galaxy Tab S9 FE+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 140,
+    "model_id": "SM-X616C",
+    "market_name": "Galaxy Tab S9 FE+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 141,
+    "model_id": "SM-X616N",
+    "market_name": "Galaxy Tab S9 FE+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 142,
+    "model_id": "SM-X620",
+    "market_name": "Galaxy Tab S10 FE+",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 143,
+    "model_id": "SM-X626B",
+    "market_name": "Galaxy Tab S10 FE+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 144,
+    "model_id": "SM-X626C",
+    "market_name": "Galaxy Tab S10 FE+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 145,
+    "model_id": "SM-X626N",
+    "market_name": "Galaxy Tab S10 FE+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 146,
+    "model_id": "SM-X700",
+    "market_name": "Galaxy Tab S8",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 147,
+    "model_id": "SM-X706B",
+    "market_name": "Galaxy Tab S8 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 148,
+    "model_id": "SM-X706C",
+    "market_name": "Galaxy Tab S8 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 149,
+    "model_id": "SM-X706N",
+    "market_name": "Galaxy Tab S8 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 150,
+    "model_id": "SM-X710",
+    "market_name": "Galaxy Tab S9",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 151,
+    "model_id": "SM-X716B",
+    "market_name": "Galaxy Tab S9 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 152,
+    "model_id": "SM-X716N",
+    "market_name": "Galaxy Tab S9 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 153,
+    "model_id": "SM-X730",
+    "market_name": "Galaxy Tab S11",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 154,
+    "model_id": "SM-X736B",
+    "market_name": "Galaxy Tab S11 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 155,
+    "model_id": "SM-X736C",
+    "market_name": "Galaxy Tab S11 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 156,
+    "model_id": "SM-X736N",
+    "market_name": "Galaxy Tab S11 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 157,
+    "model_id": "SM-X800",
+    "market_name": "Galaxy Tab S8+",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 158,
+    "model_id": "SM-X806B",
+    "market_name": "Galaxy Tab S8+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 159,
+    "model_id": "SM-X806C",
+    "market_name": "Galaxy Tab S8+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 160,
+    "model_id": "SM-X806E",
+    "market_name": "Galaxy Tab S8+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 161,
+    "model_id": "SM-X806N",
+    "market_name": "Galaxy Tab S8+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 162,
+    "model_id": "SM-X808U",
+    "market_name": "Galaxy Tab S8+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 163,
+    "model_id": "SM-X810",
+    "market_name": "Galaxy Tab S9+",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 164,
+    "model_id": "SM-X816B",
+    "market_name": "Galaxy Tab S9+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 165,
+    "model_id": "SM-X816N",
+    "market_name": "Galaxy Tab S9+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 166,
+    "model_id": "SM-X818U",
+    "market_name": "Galaxy Tab S9+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 167,
+    "model_id": "SM-X820",
+    "market_name": "Galaxy Tab S10+",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 168,
+    "model_id": "SM-X826B",
+    "market_name": "Galaxy Tab S10+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 169,
+    "model_id": "SM-X826N",
+    "market_name": "Galaxy Tab S10+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 170,
+    "model_id": "SM-X828U",
+    "market_name": "Galaxy Tab S10+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 171,
+    "model_id": "SM-X840",
+    "market_name": "Galaxy Tab S12+",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 172,
+    "model_id": "SM-X846B",
+    "market_name": "Galaxy Tab S12+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 173,
+    "model_id": "SM-X846E",
+    "market_name": "Galaxy Tab S12+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 174,
+    "model_id": "SM-X846N",
+    "market_name": "Galaxy Tab S12+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 175,
+    "model_id": "SM-X848U",
+    "market_name": "Galaxy Tab S12+ 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 176,
+    "model_id": "SM-X900",
+    "market_name": "Galaxy Tab S8 Ultra",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 177,
+    "model_id": "SM-X906B",
+    "market_name": "Galaxy Tab S8 Ultra 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 178,
+    "model_id": "SM-X906C",
+    "market_name": "Galaxy Tab S8 Ultra 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 179,
+    "model_id": "SM-X906N",
+    "market_name": "Galaxy Tab S8 Ultra 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 180,
+    "model_id": "SM-X910",
+    "market_name": "Galaxy Tab S9 Ultra",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 181,
+    "model_id": "SM-X916B",
+    "market_name": "Galaxy Tab S9 Ultra 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 182,
+    "model_id": "SM-X916C",
+    "market_name": "Galaxy Tab S9 Ultra 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 183,
+    "model_id": "SM-X916N",
+    "market_name": "Galaxy Tab S9 Ultra 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 184,
+    "model_id": "SM-X920",
+    "market_name": "Galaxy Tab S10 Ultra",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": 185,
+    "model_id": "SM-X926B",
+    "market_name": "Galaxy Tab S10 Ultra 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 186,
+    "model_id": "SM-X926C",
+    "market_name": "Galaxy Tab S10 Ultra 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 187,
+    "model_id": "SM-X926N",
+    "market_name": "Galaxy Tab S10 Ultra 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 188,
+    "model_id": "SM-X930",
+    "market_name": "Galaxy Tab S11 Ultra",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 189,
+    "model_id": "SM-X936B",
+    "market_name": "Galaxy Tab S11 Ultra 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 190,
+    "model_id": "SM-X936C",
+    "market_name": "Galaxy Tab S11 Ultra 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 191,
+    "model_id": "SM-X936N",
+    "market_name": "Galaxy Tab S11 Ultra 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 192,
+    "model_id": "SM-X940",
+    "market_name": "Galaxy Tab S12 Ultra",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 193,
+    "model_id": "SM-X946B",
+    "market_name": "Galaxy Tab S12 Ultra 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  },
+  {
+    "id": 194,
+    "model_id": "SM-X946N",
+    "market_name": "Galaxy Tab S12 Ultra 5G",
+    "platform": "Android",
+    "camera_position_portrait": "RIGHT",
+    "updated_at": "2026-08-24T09:27:28Z"
+  }
+]

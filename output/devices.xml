@@ -1,0 +1,1555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<devices>
+  <device>
+    <id>1</id>
+    <model_id>iPad13,18</model_id>
+    <market_name>iPad (10th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>2</id>
+    <model_id>iPad13,19</model_id>
+    <market_name>iPad (10th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>3</id>
+    <model_id>iPad14,8</model_id>
+    <market_name>iPad Air 11-inch (M2)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>4</id>
+    <model_id>iPad14,9</model_id>
+    <market_name>iPad Air 11-inch (M2)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>5</id>
+    <model_id>iPad14,10</model_id>
+    <market_name>iPad Air 13-inch (M2)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>6</id>
+    <model_id>iPad14,11</model_id>
+    <market_name>iPad Air 13-inch (M2)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>7</id>
+    <model_id>iPad15,3</model_id>
+    <market_name>iPad Air 11-inch (M3)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>8</id>
+    <model_id>iPad15,4</model_id>
+    <market_name>iPad Air 11-inch (M3)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>9</id>
+    <model_id>iPad15,5</model_id>
+    <market_name>iPad Air 13-inch (M3)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>10</id>
+    <model_id>iPad15,6</model_id>
+    <market_name>iPad Air 13-inch (M3)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>11</id>
+    <model_id>iPad15,7</model_id>
+    <market_name>iPad (A16)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>12</id>
+    <model_id>iPad15,8</model_id>
+    <market_name>iPad (A16)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>13</id>
+    <model_id>iPad16,3</model_id>
+    <market_name>iPad Pro 11-inch (M4)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>14</id>
+    <model_id>iPad16,4</model_id>
+    <market_name>iPad Pro 11-inch (M4)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>15</id>
+    <model_id>iPad16,5</model_id>
+    <market_name>iPad Pro 13-inch (M4)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>16</id>
+    <model_id>iPad16,6</model_id>
+    <market_name>iPad Pro 13-inch (M4)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>17</id>
+    <model_id>iPad16,8</model_id>
+    <market_name>iPad Air 11-inch (M4)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>18</id>
+    <model_id>iPad16,9</model_id>
+    <market_name>iPad Air 11-inch (M4)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>19</id>
+    <model_id>iPad16,10</model_id>
+    <market_name>iPad Air 13-inch (M4)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>20</id>
+    <model_id>iPad16,11</model_id>
+    <market_name>iPad Air 13-inch (M4)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>21</id>
+    <model_id>iPad17,1</model_id>
+    <market_name>iPad Pro 11-inch (M5)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>22</id>
+    <model_id>iPad17,2</model_id>
+    <market_name>iPad Pro 11-inch (M5)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>23</id>
+    <model_id>iPad17,3</model_id>
+    <market_name>iPad Pro 13-inch (M5)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>24</id>
+    <model_id>iPad17,4</model_id>
+    <market_name>iPad Pro 13-inch (M5)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>25</id>
+    <model_id>iPad2,1</model_id>
+    <market_name>iPad 2</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>26</id>
+    <model_id>iPad2,2</model_id>
+    <market_name>iPad 2</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>27</id>
+    <model_id>iPad2,3</model_id>
+    <market_name>iPad 2</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>28</id>
+    <model_id>iPad2,4</model_id>
+    <market_name>iPad 2</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>29</id>
+    <model_id>iPad2,5</model_id>
+    <market_name>iPad mini</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>30</id>
+    <model_id>iPad2,6</model_id>
+    <market_name>iPad mini</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>31</id>
+    <model_id>iPad2,7</model_id>
+    <market_name>iPad mini</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>32</id>
+    <model_id>iPad3,1</model_id>
+    <market_name>iPad (3rd generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>33</id>
+    <model_id>iPad3,2</model_id>
+    <market_name>iPad (3rd generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>34</id>
+    <model_id>iPad3,3</model_id>
+    <market_name>iPad (3rd generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>35</id>
+    <model_id>iPad3,4</model_id>
+    <market_name>iPad (4th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>36</id>
+    <model_id>iPad3,5</model_id>
+    <market_name>iPad (4th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>37</id>
+    <model_id>iPad3,6</model_id>
+    <market_name>iPad (4th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>38</id>
+    <model_id>iPad4,1</model_id>
+    <market_name>iPad Air</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>39</id>
+    <model_id>iPad4,2</model_id>
+    <market_name>iPad Air</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>40</id>
+    <model_id>iPad4,3</model_id>
+    <market_name>iPad Air</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>41</id>
+    <model_id>iPad4,4</model_id>
+    <market_name>iPad mini 2</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>42</id>
+    <model_id>iPad4,5</model_id>
+    <market_name>iPad mini 2</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>43</id>
+    <model_id>iPad4,6</model_id>
+    <market_name>iPad mini 2</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>44</id>
+    <model_id>iPad4,7</model_id>
+    <market_name>iPad mini 3</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>45</id>
+    <model_id>iPad4,8</model_id>
+    <market_name>iPad mini 3</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>46</id>
+    <model_id>iPad4,9</model_id>
+    <market_name>iPad mini 3</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>47</id>
+    <model_id>iPad5,1</model_id>
+    <market_name>iPad mini 4</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>48</id>
+    <model_id>iPad5,2</model_id>
+    <market_name>iPad mini 4</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>49</id>
+    <model_id>iPad5,3</model_id>
+    <market_name>iPad Air 2</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>50</id>
+    <model_id>iPad5,4</model_id>
+    <market_name>iPad Air 2</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>51</id>
+    <model_id>iPad6,3</model_id>
+    <market_name>iPad Pro 9.7-inch</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>52</id>
+    <model_id>iPad6,4</model_id>
+    <market_name>iPad Pro 9.7-inch</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>53</id>
+    <model_id>iPad6,7</model_id>
+    <market_name>iPad Pro 12-inch</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>54</id>
+    <model_id>iPad6,8</model_id>
+    <market_name>iPad Pro 12-inch</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>55</id>
+    <model_id>iPad6,11</model_id>
+    <market_name>iPad (5th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>56</id>
+    <model_id>iPad6,12</model_id>
+    <market_name>iPad (5th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>57</id>
+    <model_id>iPad7,1</model_id>
+    <market_name>iPad Pro 12-inch (2nd generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>58</id>
+    <model_id>iPad7,2</model_id>
+    <market_name>iPad Pro 12-inch (2nd generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>59</id>
+    <model_id>iPad7,3</model_id>
+    <market_name>iPad Pro 10.5-inch</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>60</id>
+    <model_id>iPad7,4</model_id>
+    <market_name>iPad Pro 10.5-inch</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>61</id>
+    <model_id>iPad7,5</model_id>
+    <market_name>iPad (6th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>62</id>
+    <model_id>iPad7,6</model_id>
+    <market_name>iPad (6th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>63</id>
+    <model_id>iPad7,11</model_id>
+    <market_name>iPad (7th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>64</id>
+    <model_id>iPad7,12</model_id>
+    <market_name>iPad (7th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>65</id>
+    <model_id>iPad8,1</model_id>
+    <market_name>iPad Pro 11-inch</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>66</id>
+    <model_id>iPad8,2</model_id>
+    <market_name>iPad Pro 11-inch</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>67</id>
+    <model_id>iPad8,3</model_id>
+    <market_name>iPad Pro 11-inch</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>68</id>
+    <model_id>iPad8,4</model_id>
+    <market_name>iPad Pro 11-inch</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>69</id>
+    <model_id>iPad8,5</model_id>
+    <market_name>iPad Pro 12.9-inch (3rd generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>70</id>
+    <model_id>iPad8,6</model_id>
+    <market_name>iPad Pro 12.9-inch (3rd generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>71</id>
+    <model_id>iPad8,7</model_id>
+    <market_name>iPad Pro 12.9-inch (3rd generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>72</id>
+    <model_id>iPad8,8</model_id>
+    <market_name>iPad Pro 12.9-inch (3rd generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>73</id>
+    <model_id>iPad8,9</model_id>
+    <market_name>iPad Pro 11-inch (2nd generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>74</id>
+    <model_id>iPad8,10</model_id>
+    <market_name>iPad Pro 11-inch (2nd generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>75</id>
+    <model_id>iPad8,11</model_id>
+    <market_name>iPad Pro 12.9-inch (4th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>76</id>
+    <model_id>iPad8,12</model_id>
+    <market_name>iPad Pro 12.9-inch (4th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>77</id>
+    <model_id>iPad11,1</model_id>
+    <market_name>iPad mini (5th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>78</id>
+    <model_id>iPad11,2</model_id>
+    <market_name>iPad mini (5th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>79</id>
+    <model_id>iPad11,3</model_id>
+    <market_name>iPad Air (3rd generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>80</id>
+    <model_id>iPad11,4</model_id>
+    <market_name>iPad Air (3rd generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>81</id>
+    <model_id>iPad11,6</model_id>
+    <market_name>iPad (8th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>82</id>
+    <model_id>iPad11,7</model_id>
+    <market_name>iPad (8th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>83</id>
+    <model_id>iPad12,1</model_id>
+    <market_name>iPad (9th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>84</id>
+    <model_id>iPad12,2</model_id>
+    <market_name>iPad (9th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>85</id>
+    <model_id>iPad13,1</model_id>
+    <market_name>iPad Air (4th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>86</id>
+    <model_id>iPad13,2</model_id>
+    <market_name>iPad Air (4th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>87</id>
+    <model_id>iPad13,4</model_id>
+    <market_name>iPad Pro 11-inch (3rd generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>88</id>
+    <model_id>iPad13,5</model_id>
+    <market_name>iPad Pro 11-inch (3rd generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>89</id>
+    <model_id>iPad13,6</model_id>
+    <market_name>iPad Pro 11-inch (3rd generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>90</id>
+    <model_id>iPad13,7</model_id>
+    <market_name>iPad Pro 11-inch (3rd generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>91</id>
+    <model_id>iPad13,8</model_id>
+    <market_name>iPad Pro 12.9-inch (5th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>92</id>
+    <model_id>iPad13,9</model_id>
+    <market_name>iPad Pro 12.9-inch (5th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>93</id>
+    <model_id>iPad13,10</model_id>
+    <market_name>iPad Pro 12.9-inch (5th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>94</id>
+    <model_id>iPad13,11</model_id>
+    <market_name>iPad Pro 12.9-inch (5th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>95</id>
+    <model_id>iPad13,16</model_id>
+    <market_name>iPad Air (5th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>96</id>
+    <model_id>iPad13,17</model_id>
+    <market_name>iPad Air (5th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>97</id>
+    <model_id>iPad14,1</model_id>
+    <market_name>iPad mini (6th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>98</id>
+    <model_id>iPad14,2</model_id>
+    <market_name>iPad mini (6th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>99</id>
+    <model_id>iPad14,3</model_id>
+    <market_name>iPad Pro 11-inch (4th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>100</id>
+    <model_id>iPad14,4</model_id>
+    <market_name>iPad Pro 11-inch (4th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>101</id>
+    <model_id>iPad14,5</model_id>
+    <market_name>iPad Pro 12.9-inch (6th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>102</id>
+    <model_id>iPad14,6</model_id>
+    <market_name>iPad Pro 12.9-inch (6th generation)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>103</id>
+    <model_id>iPad16,1</model_id>
+    <market_name>iPad mini (A17 Pro)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>104</id>
+    <model_id>iPad16,2</model_id>
+    <market_name>iPad mini (A17 Pro)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>105</id>
+    <model_id>SM-T730</model_id>
+    <market_name>Galaxy Tab S7 FE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>106</id>
+    <model_id>SM-T733</model_id>
+    <market_name>Galaxy Tab S7 FE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>107</id>
+    <model_id>SM-T735</model_id>
+    <market_name>Galaxy Tab S7 FE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>108</id>
+    <model_id>SM-T735C</model_id>
+    <market_name>Galaxy Tab S7 FE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>109</id>
+    <model_id>SM-T735N</model_id>
+    <market_name>Galaxy Tab S7 FE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>110</id>
+    <model_id>SM-T736B</model_id>
+    <market_name>Galaxy Tab S7 FE 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>111</id>
+    <model_id>SM-T736N</model_id>
+    <market_name>Galaxy Tab S7 FE 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>112</id>
+    <model_id>SM-T737</model_id>
+    <market_name>Galaxy Tab S7 FE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>113</id>
+    <model_id>SM-T738U</model_id>
+    <market_name>Galaxy Tab S7 FE 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>114</id>
+    <model_id>SM-T870</model_id>
+    <market_name>Galaxy Tab S7</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>115</id>
+    <model_id>SM-T875</model_id>
+    <market_name>Galaxy Tab S7</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>116</id>
+    <model_id>SM-T875N</model_id>
+    <market_name>Galaxy Tab S7</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>117</id>
+    <model_id>SM-T878U</model_id>
+    <market_name>Galaxy Tab S7 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>118</id>
+    <model_id>SM-T970</model_id>
+    <market_name>Galaxy Tab S7+</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>119</id>
+    <model_id>SM-T975</model_id>
+    <market_name>Galaxy Tab S7+</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>120</id>
+    <model_id>SM-T975N</model_id>
+    <market_name>Galaxy Tab S7+</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>121</id>
+    <model_id>SM-T976B</model_id>
+    <market_name>Galaxy Tab S7+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>122</id>
+    <model_id>SM-T976N</model_id>
+    <market_name>Galaxy Tab S7+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>123</id>
+    <model_id>SM-T978U</model_id>
+    <market_name>Galaxy Tab S7+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:31:11Z</updated_at>
+  </device>
+  <device>
+    <id>124</id>
+    <model_id>SM-X400</model_id>
+    <market_name>Galaxy Tab S10 Lite</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>125</id>
+    <model_id>SM-X406B</model_id>
+    <market_name>Galaxy Tab S10 Lite 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>126</id>
+    <model_id>SM-X406N</model_id>
+    <market_name>Galaxy Tab S10 Lite 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>127</id>
+    <model_id>SM-X510</model_id>
+    <market_name>Galaxy Tab S9 FE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>128</id>
+    <model_id>SM-X516B</model_id>
+    <market_name>Galaxy Tab S9 FE 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>129</id>
+    <model_id>SM-X516C</model_id>
+    <market_name>Galaxy Tab S9 FE 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>130</id>
+    <model_id>SM-X516N</model_id>
+    <market_name>Galaxy Tab S9 FE 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>131</id>
+    <model_id>SM-X518U</model_id>
+    <market_name>Galaxy Tab S9 FE 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>132</id>
+    <model_id>SM-X520</model_id>
+    <market_name>Galaxy Tab S10 FE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>133</id>
+    <model_id>SM-X526B</model_id>
+    <market_name>Galaxy Tab S10 FE 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>134</id>
+    <model_id>SM-X526C</model_id>
+    <market_name>Galaxy Tab S10 FE 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>135</id>
+    <model_id>SM-X526E</model_id>
+    <market_name>Galaxy Tab S10 FE 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>136</id>
+    <model_id>SM-X526N</model_id>
+    <market_name>Galaxy Tab S10 FE 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>137</id>
+    <model_id>SM-X528U</model_id>
+    <market_name>Galaxy Tab S10 FE 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>138</id>
+    <model_id>SM-X610</model_id>
+    <market_name>Galaxy Tab S9 FE+</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>139</id>
+    <model_id>SM-X616B</model_id>
+    <market_name>Galaxy Tab S9 FE+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>140</id>
+    <model_id>SM-X616C</model_id>
+    <market_name>Galaxy Tab S9 FE+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>141</id>
+    <model_id>SM-X616N</model_id>
+    <market_name>Galaxy Tab S9 FE+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>142</id>
+    <model_id>SM-X620</model_id>
+    <market_name>Galaxy Tab S10 FE+</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>143</id>
+    <model_id>SM-X626B</model_id>
+    <market_name>Galaxy Tab S10 FE+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>144</id>
+    <model_id>SM-X626C</model_id>
+    <market_name>Galaxy Tab S10 FE+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>145</id>
+    <model_id>SM-X626N</model_id>
+    <market_name>Galaxy Tab S10 FE+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>146</id>
+    <model_id>SM-X700</model_id>
+    <market_name>Galaxy Tab S8</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>147</id>
+    <model_id>SM-X706B</model_id>
+    <market_name>Galaxy Tab S8 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>148</id>
+    <model_id>SM-X706C</model_id>
+    <market_name>Galaxy Tab S8 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>149</id>
+    <model_id>SM-X706N</model_id>
+    <market_name>Galaxy Tab S8 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>150</id>
+    <model_id>SM-X710</model_id>
+    <market_name>Galaxy Tab S9</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>151</id>
+    <model_id>SM-X716B</model_id>
+    <market_name>Galaxy Tab S9 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>152</id>
+    <model_id>SM-X716N</model_id>
+    <market_name>Galaxy Tab S9 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>153</id>
+    <model_id>SM-X730</model_id>
+    <market_name>Galaxy Tab S11</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>154</id>
+    <model_id>SM-X736B</model_id>
+    <market_name>Galaxy Tab S11 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>155</id>
+    <model_id>SM-X736C</model_id>
+    <market_name>Galaxy Tab S11 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>156</id>
+    <model_id>SM-X736N</model_id>
+    <market_name>Galaxy Tab S11 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>157</id>
+    <model_id>SM-X800</model_id>
+    <market_name>Galaxy Tab S8+</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>158</id>
+    <model_id>SM-X806B</model_id>
+    <market_name>Galaxy Tab S8+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>159</id>
+    <model_id>SM-X806C</model_id>
+    <market_name>Galaxy Tab S8+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>160</id>
+    <model_id>SM-X806E</model_id>
+    <market_name>Galaxy Tab S8+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>161</id>
+    <model_id>SM-X806N</model_id>
+    <market_name>Galaxy Tab S8+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>162</id>
+    <model_id>SM-X808U</model_id>
+    <market_name>Galaxy Tab S8+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>163</id>
+    <model_id>SM-X810</model_id>
+    <market_name>Galaxy Tab S9+</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>164</id>
+    <model_id>SM-X816B</model_id>
+    <market_name>Galaxy Tab S9+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>165</id>
+    <model_id>SM-X816N</model_id>
+    <market_name>Galaxy Tab S9+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>166</id>
+    <model_id>SM-X818U</model_id>
+    <market_name>Galaxy Tab S9+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>167</id>
+    <model_id>SM-X820</model_id>
+    <market_name>Galaxy Tab S10+</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>168</id>
+    <model_id>SM-X826B</model_id>
+    <market_name>Galaxy Tab S10+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>169</id>
+    <model_id>SM-X826N</model_id>
+    <market_name>Galaxy Tab S10+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>170</id>
+    <model_id>SM-X828U</model_id>
+    <market_name>Galaxy Tab S10+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>171</id>
+    <model_id>SM-X840</model_id>
+    <market_name>Galaxy Tab S12+</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>172</id>
+    <model_id>SM-X846B</model_id>
+    <market_name>Galaxy Tab S12+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>173</id>
+    <model_id>SM-X846E</model_id>
+    <market_name>Galaxy Tab S12+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>174</id>
+    <model_id>SM-X846N</model_id>
+    <market_name>Galaxy Tab S12+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>175</id>
+    <model_id>SM-X848U</model_id>
+    <market_name>Galaxy Tab S12+ 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>176</id>
+    <model_id>SM-X900</model_id>
+    <market_name>Galaxy Tab S8 Ultra</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>177</id>
+    <model_id>SM-X906B</model_id>
+    <market_name>Galaxy Tab S8 Ultra 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>178</id>
+    <model_id>SM-X906C</model_id>
+    <market_name>Galaxy Tab S8 Ultra 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>179</id>
+    <model_id>SM-X906N</model_id>
+    <market_name>Galaxy Tab S8 Ultra 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>180</id>
+    <model_id>SM-X910</model_id>
+    <market_name>Galaxy Tab S9 Ultra</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>181</id>
+    <model_id>SM-X916B</model_id>
+    <market_name>Galaxy Tab S9 Ultra 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>182</id>
+    <model_id>SM-X916C</model_id>
+    <market_name>Galaxy Tab S9 Ultra 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>183</id>
+    <model_id>SM-X916N</model_id>
+    <market_name>Galaxy Tab S9 Ultra 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>184</id>
+    <model_id>SM-X920</model_id>
+    <market_name>Galaxy Tab S10 Ultra</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>185</id>
+    <model_id>SM-X926B</model_id>
+    <market_name>Galaxy Tab S10 Ultra 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>186</id>
+    <model_id>SM-X926C</model_id>
+    <market_name>Galaxy Tab S10 Ultra 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>187</id>
+    <model_id>SM-X926N</model_id>
+    <market_name>Galaxy Tab S10 Ultra 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>188</id>
+    <model_id>SM-X930</model_id>
+    <market_name>Galaxy Tab S11 Ultra</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>189</id>
+    <model_id>SM-X936B</model_id>
+    <market_name>Galaxy Tab S11 Ultra 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>190</id>
+    <model_id>SM-X936C</model_id>
+    <market_name>Galaxy Tab S11 Ultra 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>191</id>
+    <model_id>SM-X936N</model_id>
+    <market_name>Galaxy Tab S11 Ultra 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>192</id>
+    <model_id>SM-X940</model_id>
+    <market_name>Galaxy Tab S12 Ultra</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>193</id>
+    <model_id>SM-X946B</model_id>
+    <market_name>Galaxy Tab S12 Ultra 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+  <device>
+    <id>194</id>
+    <model_id>SM-X946N</model_id>
+    <market_name>Galaxy Tab S12 Ultra 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-08-24T09:27:28Z</updated_at>
+  </device>
+</devices>

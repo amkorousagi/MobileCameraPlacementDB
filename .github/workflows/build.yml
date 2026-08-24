@@ -1,0 +1,65 @@
+name: Build device database
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate SQLite, JSON, XML, and CSV
+        run: python build_data.py
+
+      - name: Sanity-check exports
+        run: |
+          python - <<'PY'
+          import json
+          import sqlite3
+          import xml.etree.ElementTree as ET
+
+          rows = json.load(open("output/devices.json", encoding="utf-8"))
+          required = {
+              "iPad13,18", "iPad14,8", "iPad14,11", "iPad16,3", "iPad16,6",
+              "SM-X700", "SM-X800", "SM-X900", "SM-X710", "SM-X810",
+              "SM-X910", "SM-X820", "SM-X920",
+          }
+          present = {row["model_id"] for row in rows}
+          missing = required - present
+          assert not missing, missing
+          xml_count = len(ET.parse("output/devices.xml").getroot())
+          db_count = sqlite3.connect("output/devices.db").execute(
+              "SELECT COUNT(*) FROM devices"
+          ).fetchone()[0]
+          assert xml_count == db_count == len(rows)
+          print("ok", len(rows), "devices")
+          PY
+
+      - name: Commit output if data changed
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/
+          if git diff --staged --quiet; then
+            echo "No output changes"
+          else
+            git commit -m "chore: rebuild device database artifacts"
+            git push
+          fi
