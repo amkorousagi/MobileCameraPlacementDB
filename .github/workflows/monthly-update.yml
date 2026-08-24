@@ -1,0 +1,64 @@
+name: Monthly device catalog update
+
+on:
+  schedule:
+    # 04:00 UTC on the 1st of every month
+    - cron: "0 4 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync identifiers from AppleDB and Google Play
+        run: python sync_sources.py
+
+      - name: Rebuild database artifacts
+        run: python build_data.py
+
+      - name: Sanity-check exports
+        run: |
+          python - <<'PY'
+          import json
+          import sqlite3
+          import xml.etree.ElementTree as ET
+
+          rows = json.load(open("output/devices.json", encoding="utf-8"))
+          xml_count = len(ET.parse("output/devices.xml").getroot())
+          db_count = sqlite3.connect("output/devices.db").execute(
+              "SELECT COUNT(*) FROM devices"
+          ).fetchone()[0]
+          assert rows and xml_count == db_count == len(rows)
+          print("ok", len(rows), "devices")
+          PY
+
+      - name: Open pull request when the catalog changed
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: sync/monthly-device-catalog
+          delete-branch: true
+          commit-message: "chore: sync device identifiers from AppleDB"
+          title: "chore: monthly device catalog sync"
+          body: |
+            Automated monthly refresh of phone and tablet identifiers.
+
+            - iPhone / iPad / iPod identifiers from [AppleDB](https://appledb.dev)
+            - Android `Build.MODEL` codes from [Google Play certified devices](https://github.com/androidtrackers/certified-android-devices)
+            - Camera positions for **new** families are inferred; please spot-check new `RIGHT` tablets before merge
+            - Existing curated camera positions are kept; marketing names are refreshed from the sources
+          add-paths: |
+            schema.sql
+            output/

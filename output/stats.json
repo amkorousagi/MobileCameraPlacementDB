@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-08-24T10:02:25Z",
+  "catalog_total": 42391,
+  "by_platform": {
+    "iOS": 176,
+    "Android": 42215
+  },
+  "by_position": {
+    "RIGHT": 227,
+    "TOP": 42164
+  },
+  "by_position_pct": {
+    "RIGHT": 0.54,
+    "TOP": 99.46
+  },
+  "by_platform_position": {
+    "iOS/RIGHT": 24,
+    "iOS/TOP": 152,
+    "Android/RIGHT": 203,
+    "Android/TOP": 42012
+  },
+  "ios_source": {
+    "source_records": 1900,
+    "mapped": 176,
+    "skipped_unreleased": 8,
+    "skipped_non_mobile": 72,
+    "ipad_by_year": {
+      "2010": {
+        "total": 1,
+        "RIGHT": 0,
+        "TOP": 1,
+        "LEFT": 0
+      },
+      "2019": {
+        "total": 6,
+        "RIGHT": 0,
+        "TOP": 6,
+        "LEFT": 0
+      },
+      "2020": {
+        "total": 8,
+        "RIGHT": 0,
+        "TOP": 8,
+        "LEFT": 0
+      },
+      "2021": {
+        "total": 12,
+        "RIGHT": 0,
+        "TOP": 12,
+        "LEFT": 0
+      },
+      "2022": {
+        "total": 8,
+        "RIGHT": 2,
+        "TOP": 6,
+        "LEFT": 0
+      },
+      "2024": {
+        "total": 10,
+        "RIGHT": 8,
+        "TOP": 2,
+        "LEFT": 0
+      },
+      "2025": {
+        "total": 10,
+        "RIGHT": 10,
+        "TOP": 0,
+        "LEFT": 0
+      },
+      "2026": {
+        "total": 4,
+        "RIGHT": 4,
+        "TOP": 0,
+        "LEFT": 0
+      },
+      "2011": {
+        "total": 3,
+        "RIGHT": 0,
+        "TOP": 3,
+        "LEFT": 0
+      },
+      "2012": {
+        "total": 10,
+        "RIGHT": 0,
+        "TOP": 10,
+        "LEFT": 0
+      },
+      "2013": {
+        "total": 4,
+        "RIGHT": 0,
+        "TOP": 4,
+        "LEFT": 0
+      },
+      "2014": {
+        "total": 7,
+        "RIGHT": 0,
+        "TOP": 7,
+        "LEFT": 0
+      },
+      "2015": {
+        "total": 4,
+        "RIGHT": 0,
+        "TOP": 4,
+        "LEFT": 0
+      },
+      "2017": {
+        "total": 6,
+        "RIGHT": 0,
+        "TOP": 6,
+        "LEFT": 0
+      },
+      "2016": {
+        "total": 2,
+        "RIGHT": 0,
+        "TOP": 2,
+        "LEFT": 0
+      },
+      "2018": {
+        "total": 10,
+        "RIGHT": 0,
+        "TOP": 10,
+        "LEFT": 0
+      }
+    },
+    "iphone_count": 64,
+    "ipad_count": 105,
+    "ipod_count": 7,
+    "skipped_non_mobile_unique": 72
+  },
+  "android_source": {
+    "source_keys": 44076,
+    "mapped": 42215,
+    "mapped_phones": 40602,
+    "mapped_tablets": 1613,
+    "mapped_right": 203,
+    "mapped_top": 42012,
+    "skipped_empty_name": 972,
+    "skipped_non_mobile": 888,
+    "skipped_malformed": 1
+  },
+  "coverage": {
+    "appledb_mobile_mapped": 176,
+    "play_keys": 44076,
+    "play_mapped": 42215,
+    "play_mapped_pct": 95.78
+  }
+}
