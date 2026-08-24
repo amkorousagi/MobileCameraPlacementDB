@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 """Monthly device catalog sync.
 
-Pulls new tablet identifiers from DeviceKit (iPad hardware strings) and the
-Google Play supported-devices list (Samsung Galaxy Tab model codes), infers
-front-camera placement, and merges them into schema.sql.
+Primary sources:
+  iOS  — AppleDB device JSON (identifier, marketing name, type, SoC)
+  AOS  — androidtrackers certified-android-devices by_model.json
+         (UTF-8 JSON of Google Play's official supported-devices list)
 
-Existing rows keep their curated camera_position_portrait and market_name.
-New rows get an inferred position; review those in the monthly PR.
+Fallbacks:
+  iOS  — DeviceKit Device.generated.swift
+  AOS  — Google Play supported_devices.csv (UTF-16)
 
-Standard library only.
+Existing rows keep their curated camera_position_portrait. Marketing names are
+refreshed from the primary source. New rows get an inferred camera position.
 """
 
 from __future__ import annotations
@@ -16,7 +19,9 @@ from __future__ import annotations
 import argparse
 import csv
 import datetime as dt
+import gzip
 import io
+import json
 import os
 import re
 import sys
@@ -25,6 +30,11 @@ import urllib.request
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SCHEMA_PATH = os.path.join(ROOT, "schema.sql")
 
+APPLEDB_DEVICES_URL = "https://api.appledb.dev/device/main.json.gz"
+ANDROIDTRACKERS_BY_MODEL_URL = (
+    "https://raw.githubusercontent.com/androidtrackers/certified-android-devices/"
+    "master/by_model.json"
+)
 DEVICEKIT_URL = (
     "https://raw.githubusercontent.com/devicekit/DeviceKit/"
     "master/Source/Device.generated.swift"
@@ -46,8 +56,9 @@ DEVICEKIT_NAME_RE = re.compile(
     re.MULTILINE,
 )
 IDENTIFIER_RE = re.compile(r'"(iPad[^"]+)"')
+IPAD_HW_ID_RE = re.compile(r"^iPad\d+,\d+$")
 
-# DeviceKit enum case -> portrait camera edge. These families are confirmed.
+# DeviceKit enum case -> portrait camera edge (fallback parser only).
 KNOWN_IPAD_FAMILY_POSITION = {
     "iPad10": "RIGHT",
     "iPadA16": "RIGHT",
@@ -63,7 +74,6 @@ KNOWN_IPAD_FAMILY_POSITION = {
     "iPadPro13M5": "RIGHT",
 }
 
-# Galaxy Tab families whose selfie camera sits on the long edge.
 SAMSUNG_LANDSCAPE_NAME_RE = re.compile(
     r"galaxy tab s(?:7|8|9|1[0-9])(?:\+| ultra| fe(?:\+)?| lite)?(?:\s|$)",
     re.IGNORECASE,
@@ -75,9 +85,11 @@ SCHEMA_HEADER = """\
 -- Language-agnostic hardware mapping of tablet front-camera location
 -- in portrait orientation: RIGHT | TOP | LEFT.
 --
--- iOS identifiers follow Apple's hardware strings (e.g. iPad16,3),
--- matching DeviceKit: https://github.com/devicekit/DeviceKit
--- Android identifiers follow Samsung model codes (e.g. SM-X910).
+-- iOS identifiers and names come from AppleDB:
+--   https://appledb.dev  /  https://github.com/littlebyteorg/appledb
+-- Android model codes (Build.MODEL) and names come from Google Play's
+-- certified-device list, via androidtrackers UTF-8 JSON:
+--   https://github.com/androidtrackers/certified-android-devices
 --
 -- camera_position_portrait:
 --   RIGHT  camera is on the long edge (right side in portrait; top in landscape)
@@ -105,11 +117,25 @@ def utc_now() -> str:
     )
 
 
-def fetch_text(url: str, encoding: str = "utf-8") -> str:
+def fetch_bytes(url: str) -> bytes:
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(request, timeout=60) as response:
-        payload = response.read()
-    return payload.decode(encoding)
+        return response.read()
+
+
+def maybe_decompress(payload: bytes) -> bytes:
+    if payload.startswith(b"\x1f\x8b"):
+        return gzip.decompress(payload)
+    return payload
+
+
+def fetch_text(url: str, encoding: str = "utf-8") -> str:
+    return maybe_decompress(fetch_bytes(url)).decode(encoding)
+
+
+def fetch_json(url: str):
+    payload = maybe_decompress(fetch_bytes(url))
+    return json.loads(payload.decode("utf-8"))
 
 
 def sql_escape(value: str) -> str:
@@ -139,37 +165,96 @@ def parse_schema_devices(schema_sql: str) -> dict[str, dict]:
     return devices
 
 
-def infer_ipad_position(family: str, market_name: str) -> str:
-    if family in KNOWN_IPAD_FAMILY_POSITION:
-        return KNOWN_IPAD_FAMILY_POSITION[family]
+def chip_generation(soc: str, letter: str) -> int | None:
+    match = re.match(r"{letter}(\d+)".format(letter=letter), soc or "", re.IGNORECASE)
+    if match:
+        return int(match.group(1))
+    return None
 
-    blob = "{family} {name}".format(family=family, name=market_name)
 
+def infer_ipad_position(name: str, device_type: str = "", soc: str = "") -> str:
+    blob = " ".join(part for part in (device_type, name, soc) if part)
     if re.search(r"mini", blob, re.IGNORECASE):
         return "TOP"
 
-    air_chip = re.search(r"Air.*M(\d+)", blob, re.IGNORECASE)
-    if air_chip and int(air_chip.group(1)) >= 2:
-        return "RIGHT"
+    named_m = re.search(r"\bM(\d+)\b", blob, re.IGNORECASE)
+    m_gen = chip_generation(soc, "M")
+    if m_gen is None and named_m:
+        m_gen = int(named_m.group(1))
 
-    pro_chip = re.search(r"Pro.*M(\d+)", blob, re.IGNORECASE)
-    if pro_chip and int(pro_chip.group(1)) >= 4:
-        return "RIGHT"
+    is_air = bool(re.search(r"\bair\b", blob, re.IGNORECASE))
+    is_pro = bool(re.search(r"\bpro\b", blob, re.IGNORECASE))
 
-    numbered = re.match(r"iPad(\d+)$", family)
-    if numbered and int(numbered.group(1)) >= 10:
-        return "RIGHT"
-
-    if re.match(r"iPadA\d+", family):
-        return "RIGHT"
+    if is_air:
+        return "RIGHT" if m_gen is not None and m_gen >= 2 else "TOP"
+    if is_pro:
+        return "RIGHT" if m_gen is not None and m_gen >= 4 else "TOP"
 
     generation = re.search(
-        r"iPad \((\d+)(?:st|nd|rd|th) generation\)", market_name, re.IGNORECASE
+        r"\((\d+)(?:st|nd|rd|th) generation\)", name, re.IGNORECASE
     )
     if generation and int(generation.group(1)) >= 10:
         return "RIGHT"
 
+    named_a = re.search(r"iPad \(A(\d+)\)", name, re.IGNORECASE)
+    a_gen = chip_generation(soc, "A")
+    if named_a:
+        a_gen = int(named_a.group(1))
+    if a_gen is not None and a_gen >= 16:
+        return "RIGHT"
+
     return "TOP"
+
+
+def infer_ipad_position_from_family(family: str, market_name: str) -> str:
+    if family in KNOWN_IPAD_FAMILY_POSITION:
+        return KNOWN_IPAD_FAMILY_POSITION[family]
+    return infer_ipad_position(market_name, device_type=family, soc="")
+
+
+def as_text(value) -> str:
+    if value is None:
+        return ""
+    if isinstance(value, list):
+        for item in value:
+            text = as_text(item)
+            if text:
+                return text
+        return ""
+    return str(value).strip()
+
+
+def appledb_identifiers(device: dict) -> list[str]:
+    ident = device.get("identifier") or []
+    if isinstance(ident, str):
+        ident = [ident]
+    return [item for item in ident if isinstance(item, str)]
+
+
+def parse_appledb(devices: list) -> list[dict]:
+    parsed: list[dict] = []
+    seen: set[str] = set()
+    for device in devices:
+        name = as_text(device.get("name"))
+        if not name or name.lower().startswith("unreleased"):
+            continue
+        device_type = as_text(device.get("type"))
+        soc = as_text(device.get("soc"))
+        for model_id in appledb_identifiers(device):
+            if not IPAD_HW_ID_RE.match(model_id) or model_id in seen:
+                continue
+            seen.add(model_id)
+            parsed.append(
+                {
+                    "model_id": model_id,
+                    "market_name": name,
+                    "platform": "iOS",
+                    "camera_position_portrait": infer_ipad_position(
+                        name, device_type, soc
+                    ),
+                }
+            )
+    return parsed
 
 
 def parse_devicekit(source: str) -> list[dict]:
@@ -182,7 +267,7 @@ def parse_devicekit(source: str) -> list[dict]:
     seen: set[str] = set()
     for identifier_blob, family in DEVICEKIT_MAP_RE.findall(source):
         market_name = family_names.get(family, family)
-        position = infer_ipad_position(family, market_name)
+        position = infer_ipad_position_from_family(family, market_name)
         for model_id in IDENTIFIER_RE.findall(identifier_blob):
             if model_id in seen:
                 continue
@@ -204,8 +289,38 @@ def infer_samsung_position(_model_id: str, market_name: str) -> str | None:
     return None
 
 
+def parse_androidtrackers(by_model: dict) -> list[dict]:
+    devices: list[dict] = []
+    seen: set[str] = set()
+    for model_id, entries in by_model.items():
+        if not SAMSUNG_MODEL_RE.match(model_id) or model_id in seen:
+            continue
+        if not isinstance(entries, list):
+            entries = [entries]
+        for entry in entries:
+            if not isinstance(entry, dict):
+                continue
+            brand = (entry.get("brand") or "").strip()
+            name = (entry.get("name") or "").strip()
+            if brand.lower() != "samsung" or "tab" not in name.lower():
+                continue
+            position = infer_samsung_position(model_id, name)
+            if position is None:
+                continue
+            seen.add(model_id)
+            devices.append(
+                {
+                    "model_id": model_id,
+                    "market_name": name,
+                    "platform": "Android",
+                    "camera_position_portrait": position,
+                }
+            )
+            break
+    return devices
+
+
 def parse_play_samsung_tablets(csv_text: str) -> list[dict]:
-    # Google's export is historically UTF-16; fall back if decoded as UTF-8.
     sample = csv_text.lstrip("\ufeff")
     reader = csv.DictReader(io.StringIO(sample))
     devices: list[dict] = []
@@ -238,19 +353,20 @@ def parse_play_samsung_tablets(csv_text: str) -> list[dict]:
     return devices
 
 
-def merge_devices(existing: dict[str, dict], incoming: list[dict], now: str) -> tuple[dict[str, dict], list[str]]:
+def merge_devices(
+    existing: dict[str, dict], incoming: list[dict], now: str
+) -> tuple[list[str], list[str]]:
     added: list[str] = []
+    renamed: list[str] = []
     for device in incoming:
         model_id = device["model_id"]
         if model_id in existing:
             current = existing[model_id]
-            changed = False
-            # Fill in a better market name if the stored one is just the identifier.
-            if current["market_name"] == model_id and device["market_name"] != model_id:
-                current["market_name"] = device["market_name"]
-                changed = True
-            if changed:
+            new_name = device["market_name"]
+            if new_name and new_name != current["market_name"]:
+                current["market_name"] = new_name
                 current["updated_at"] = now
+                renamed.append(model_id)
             continue
         existing[model_id] = {
             "model_id": model_id,
@@ -260,7 +376,7 @@ def merge_devices(existing: dict[str, dict], incoming: list[dict], now: str) -> 
             "updated_at": now,
         }
         added.append(model_id)
-    return existing, added
+    return added, renamed
 
 
 def render_schema(devices: dict[str, dict]) -> str:
@@ -277,7 +393,9 @@ def render_schema(devices: dict[str, dict]) -> str:
         grouped,
         key=lambda item: (platform_order.get(item[0], 9), position_order.get(item[1], 9)),
     ):
-        rows = sorted(grouped[(platform, position)], key=lambda item: model_sort_key(item["model_id"]))
+        rows = sorted(
+            grouped[(platform, position)], key=lambda item: model_sort_key(item["model_id"])
+        )
         label = {
             "RIGHT": "landscape-edge front camera (RIGHT in portrait)",
             "TOP": "short-edge front camera (TOP in portrait)",
@@ -312,9 +430,7 @@ def write_schema(schema_sql: str) -> None:
 
 
 def load_play_devices() -> list[dict]:
-    raw = urllib.request.Request(PLAY_DEVICES_URL, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(raw, timeout=60) as response:
-        payload = response.read()
+    payload = fetch_bytes(PLAY_DEVICES_URL)
     for encoding in ("utf-16", "utf-8-sig", "utf-8", "latin-1"):
         try:
             text = payload.decode(encoding)
@@ -325,42 +441,81 @@ def load_play_devices() -> list[dict]:
     raise RuntimeError("Could not decode Google Play supported-devices.csv")
 
 
+def load_ios_devices() -> tuple[list[dict], str]:
+    print("Fetching AppleDB…")
+    try:
+        catalog = fetch_json(APPLEDB_DEVICES_URL)
+        ipads = parse_appledb(catalog)
+        if ipads:
+            print("  parsed {count} iPad identifiers".format(count=len(ipads)))
+            return ipads, "AppleDB"
+        print("  AppleDB returned no iPad identifiers; falling back", file=sys.stderr)
+    except Exception as exc:  # noqa: BLE001
+        print("  AppleDB failed ({exc}); falling back to DeviceKit".format(exc=exc), file=sys.stderr)
+
+    print("Fetching DeviceKit…")
+    ipads = parse_devicekit(fetch_text(DEVICEKIT_URL))
+    print("  parsed {count} iPad identifiers".format(count=len(ipads)))
+    return ipads, "DeviceKit"
+
+
+def load_android_devices() -> tuple[list[dict], str]:
+    print("Fetching androidtrackers certified-android-devices…")
+    try:
+        by_model = fetch_json(ANDROIDTRACKERS_BY_MODEL_URL)
+        tablets = parse_androidtrackers(by_model)
+        if tablets:
+            print("  parsed {count} Galaxy Tab landscape-camera models".format(count=len(tablets)))
+            return tablets, "androidtrackers"
+        print("  androidtrackers returned no tablet models; falling back", file=sys.stderr)
+    except Exception as exc:  # noqa: BLE001
+        print(
+            "  androidtrackers failed ({exc}); falling back to Google Play CSV".format(exc=exc),
+            file=sys.stderr,
+        )
+
+    print("Fetching Google Play supported devices…")
+    tablets = load_play_devices()
+    print("  parsed {count} Galaxy Tab landscape-camera models".format(count=len(tablets)))
+    return tablets, "Google Play CSV"
+
+
 def sync(include_android: bool = True) -> int:
     with open(SCHEMA_PATH, "r", encoding="utf-8") as handle:
         schema_sql = handle.read()
     devices = parse_schema_devices(schema_sql)
-    before = set(devices)
-
-    print("Fetching DeviceKit…")
-    devicekit_source = fetch_text(DEVICEKIT_URL)
-    ipads = parse_devicekit(devicekit_source)
-    print("  parsed {count} iPad identifiers".format(count=len(ipads)))
 
     now = utc_now()
-    devices, added_ios = merge_devices(devices, ipads, now)
+    ipads, ios_source = load_ios_devices()
+    added_ios, renamed_ios = merge_devices(devices, ipads, now)
 
     added_android: list[str] = []
+    renamed_android: list[str] = []
+    android_source = "skipped"
     if include_android:
-        print("Fetching Google Play supported devices…")
         try:
-            samsung = load_play_devices()
-            print("  parsed {count} Galaxy Tab landscape-camera models".format(count=len(samsung)))
-            devices, added_android = merge_devices(devices, samsung, now)
-        except Exception as exc:  # noqa: BLE001 — keep monthly job resilient
+            tablets, android_source = load_android_devices()
+            added_android, renamed_android = merge_devices(devices, tablets, now)
+        except Exception as exc:  # noqa: BLE001
             print("  skipped Android sync: {exc}".format(exc=exc), file=sys.stderr)
 
-    added = [model_id for model_id in devices if model_id not in before]
     write_schema(render_schema(devices))
 
+    added = added_ios + added_android
+    renamed = renamed_ios + renamed_android
     print("schema.sql now has {count} devices".format(count=len(devices)))
+    print("  iOS source: {source}".format(source=ios_source))
+    print("  Android source: {source}".format(source=android_source))
     if added:
         preview = ", ".join(sorted(added)[:20])
         extra = "" if len(added) <= 20 else " …"
         print("  added ({count}): {preview}{extra}".format(
             count=len(added), preview=preview, extra=extra
         ))
-    else:
-        print("  no new identifiers")
+    if renamed:
+        print("  refreshed {count} market names".format(count=len(renamed)))
+    if not added and not renamed:
+        print("  no catalog changes")
     return 0
 
 
@@ -369,7 +524,7 @@ def main() -> int:
     parser.add_argument(
         "--ios-only",
         action="store_true",
-        help="Only sync iPad identifiers from DeviceKit",
+        help="Only sync iPad identifiers from AppleDB",
     )
     args = parser.parse_args()
     return sync(include_android=not args.ios_only)

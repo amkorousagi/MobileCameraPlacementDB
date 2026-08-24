@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Sync identifiers from DeviceKit and Google Play
+      - name: Sync identifiers from AppleDB and Google Play
         run: python sync_sources.py
 
       - name: Rebuild database artifacts
@@ -50,15 +50,15 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: sync/monthly-device-catalog
           delete-branch: true
-          commit-message: "chore: sync device identifiers from DeviceKit"
+          commit-message: "chore: sync device identifiers from AppleDB"
           title: "chore: monthly device catalog sync"
           body: |
             Automated monthly refresh of tablet identifiers.
 
-            - iPad hardware strings from [DeviceKit](https://github.com/devicekit/DeviceKit)
-            - Samsung Galaxy Tab model codes from Google Play's supported-devices list
+            - iPad hardware strings and names from [AppleDB](https://appledb.dev)
+            - Samsung Galaxy Tab `Build.MODEL` codes from [Google Play certified devices](https://github.com/androidtrackers/certified-android-devices)
             - Camera positions for **new** families are inferred; please spot-check `RIGHT` vs `TOP` before merge
-            - Existing curated rows keep their camera position
+            - Existing curated camera positions are kept; marketing names are refreshed from the sources
           add-paths: |
             schema.sql
             output/
