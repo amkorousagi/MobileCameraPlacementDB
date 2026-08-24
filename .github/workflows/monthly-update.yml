@@ -53,11 +53,11 @@ jobs:
           commit-message: "chore: sync device identifiers from AppleDB"
           title: "chore: monthly device catalog sync"
           body: |
-            Automated monthly refresh of tablet identifiers.
+            Automated monthly refresh of phone and tablet identifiers.
 
-            - iPad hardware strings and names from [AppleDB](https://appledb.dev)
-            - Samsung Galaxy Tab `Build.MODEL` codes from [Google Play certified devices](https://github.com/androidtrackers/certified-android-devices)
-            - Camera positions for **new** families are inferred; please spot-check `RIGHT` vs `TOP` before merge
+            - iPhone / iPad / iPod identifiers from [AppleDB](https://appledb.dev)
+            - Android `Build.MODEL` codes from [Google Play certified devices](https://github.com/androidtrackers/certified-android-devices)
+            - Camera positions for **new** families are inferred; please spot-check new `RIGHT` tablets before merge
             - Existing curated camera positions are kept; marketing names are refreshed from the sources
           add-paths: |
             schema.sql

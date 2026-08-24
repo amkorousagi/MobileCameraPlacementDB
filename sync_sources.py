@@ -6,12 +6,9 @@ Primary sources:
   AOS  — androidtrackers certified-android-devices by_model.json
          (UTF-8 JSON of Google Play's official supported-devices list)
 
-Fallbacks:
-  iOS  — DeviceKit Device.generated.swift
-  AOS  — Google Play supported_devices.csv (UTF-16)
-
-Existing rows keep their curated camera_position_portrait. Marketing names are
-refreshed from the primary source. New rows get an inferred camera position.
+Maps every mappable phone/tablet identifier to a portrait front-camera
+edge (RIGHT / TOP / LEFT). TVs, watches, Chromebooks, and accessories
+are skipped. Existing rows keep curated camera_position_portrait.
 """
 
 from __future__ import annotations
@@ -29,6 +26,8 @@ import urllib.request
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SCHEMA_PATH = os.path.join(ROOT, "schema.sql")
+OUTPUT_DIR = os.path.join(ROOT, "output")
+STATS_PATH = os.path.join(OUTPUT_DIR, "stats.json")
 
 APPLEDB_DEVICES_URL = "https://api.appledb.dev/device/main.json.gz"
 ANDROIDTRACKERS_BY_MODEL_URL = (
@@ -42,6 +41,7 @@ DEVICEKIT_URL = (
 PLAY_DEVICES_URL = "https://storage.googleapis.com/play_public/supported_devices.csv"
 
 USER_AGENT = "MobileCameraPlacementDB/1.0 (+https://github.com/amkorousagi/MobileCameraPlacementDB)"
+INSERT_BATCH = 200
 
 INSERT_ROW_RE = re.compile(
     r"\(\s*'((?:\\'|[^'])*)'\s*,\s*'((?:\\'|[^'])*)'\s*,\s*'((?:\\'|[^'])*)'"
@@ -49,16 +49,16 @@ INSERT_ROW_RE = re.compile(
 )
 
 DEVICEKIT_MAP_RE = re.compile(
-    r'case\s+((?:"iPad[^"]+"\s*,\s*)*"iPad[^"]+")\s*:\s*return\s+(\w+)'
+    r'case\s+((?:"(?:iPad|iPhone|iPod)[^"]+"\s*,\s*)*"(?:iPad|iPhone|iPod)[^"]+")'
+    r"\s*:\s*return\s+(\w+)"
 )
 DEVICEKIT_NAME_RE = re.compile(
     r"Device is an \[([^\]]+)\][^\n]*\n(?:[^\n]*\n)*?\s*case (\w+)",
     re.MULTILINE,
 )
-IDENTIFIER_RE = re.compile(r'"(iPad[^"]+)"')
-IPAD_HW_ID_RE = re.compile(r"^iPad\d+,\d+$")
+IDENTIFIER_RE = re.compile(r'"(i(?:Pad|Phone|Pod)[^"]+)"')
+IOS_HW_ID_RE = re.compile(r"^(iPhone|iPad|iPod)\d+,\d+$")
 
-# DeviceKit enum case -> portrait camera edge (fallback parser only).
 KNOWN_IPAD_FAMILY_POSITION = {
     "iPad10": "RIGHT",
     "iPadA16": "RIGHT",
@@ -74,15 +74,45 @@ KNOWN_IPAD_FAMILY_POSITION = {
     "iPadPro13M5": "RIGHT",
 }
 
+# Long-edge (landscape video-call) Samsung tabs: S7 and later flagship/FE/Lite.
 SAMSUNG_LANDSCAPE_NAME_RE = re.compile(
     r"galaxy tab s(?:7|8|9|1[0-9])(?:\+| ultra| fe(?:\+)?| lite)?(?:\s|$)",
     re.IGNORECASE,
 )
-SAMSUNG_MODEL_RE = re.compile(r"^SM-[TX][0-9]{3}[A-Z0-9]*$", re.IGNORECASE)
+
+# Other 2022+ landscape-first Android tablets with the selfie cam on the long edge.
+OTHER_LANDSCAPE_TABLET_RE = re.compile(
+    r"pixel tablet|"
+    r"oneplus pad|"
+    r"oppo pad|"
+    r"xiaomi pad|"
+    r"redmi pad|"
+    r"poco pad|"
+    r"honor mag(?:ic)?\s*pad|"
+    r"honor pad|"
+    r"lenovo (?:yoga )?tab p(?:11|12)|"
+    r"huawei matepad pro",
+    re.IGNORECASE,
+)
+
+NON_MOBILE_RE = re.compile(
+    r"\b(android tv|google tv|smart tv|\btv\b|tv box|tv stick|set-top|set top|"
+    r"chromebook|chromebox|chromebit|smartwatch|galaxy watch|wear os|wearos|"
+    r"media player|dongle|projector|galaxy camera|\brouter\b|printer|"
+    r"galaxy book|\blaptop\b|head unit)\b",
+    re.IGNORECASE,
+)
+TABLET_NAME_RE = re.compile(
+    r"\b(tablet|\btab\b|tab[0-9]|matepad|mediapad|yoga tab|g pad|"
+    r"mi pad|xiaomi pad|redmi pad|poco pad|honor pad|magic.?pad|"
+    r"oneplus pad|oppo pad|pixel tablet)\b",
+    re.IGNORECASE,
+)
+SAMSUNG_TABLET_MODEL_RE = re.compile(r"^SM-[TXP][0-9]", re.IGNORECASE)
 
 SCHEMA_HEADER = """\
 -- Mobile Camera Placement DB
--- Language-agnostic hardware mapping of tablet front-camera location
+-- Language-agnostic hardware mapping of phone/tablet front-camera location
 -- in portrait orientation: RIGHT | TOP | LEFT.
 --
 -- iOS identifiers and names come from AppleDB:
@@ -93,7 +123,7 @@ SCHEMA_HEADER = """\
 --
 -- camera_position_portrait:
 --   RIGHT  camera is on the long edge (right side in portrait; top in landscape)
---   TOP    camera is on the short edge (classic portrait placement)
+--   TOP    camera is on the short edge (classic phone / older tablet placement)
 --   LEFT   reserved for devices with the camera on the opposite long edge
 --
 -- updated_at is stored as a stable ISO-8601 UTC timestamp so rebuilds are
@@ -119,7 +149,7 @@ def utc_now() -> str:
 
 def fetch_bytes(url: str) -> bytes:
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(request, timeout=60) as response:
+    with urllib.request.urlopen(request, timeout=90) as response:
         return response.read()
 
 
@@ -148,6 +178,18 @@ def model_sort_key(model_id: str) -> tuple:
     for part in parts:
         key.append((1, int(part)) if part.isdigit() else (0, part.upper()))
     return tuple(key)
+
+
+def as_text(value) -> str:
+    if value is None:
+        return ""
+    if isinstance(value, list):
+        for item in value:
+            text = as_text(item)
+            if text:
+                return text
+        return ""
+    return str(value).strip()
 
 
 def parse_schema_devices(schema_sql: str) -> dict[str, dict]:
@@ -206,22 +248,18 @@ def infer_ipad_position(name: str, device_type: str = "", soc: str = "") -> str:
     return "TOP"
 
 
+def infer_ios_position(model_id: str, name: str, device_type: str = "", soc: str = "") -> str:
+    if model_id.startswith("iPhone") or model_id.startswith("iPod"):
+        return "TOP"
+    return infer_ipad_position(name, device_type, soc)
+
+
 def infer_ipad_position_from_family(family: str, market_name: str) -> str:
+    if family.startswith("iPhone") or family.startswith("iPod"):
+        return "TOP"
     if family in KNOWN_IPAD_FAMILY_POSITION:
         return KNOWN_IPAD_FAMILY_POSITION[family]
     return infer_ipad_position(market_name, device_type=family, soc="")
-
-
-def as_text(value) -> str:
-    if value is None:
-        return ""
-    if isinstance(value, list):
-        for item in value:
-            text = as_text(item)
-            if text:
-                return text
-        return ""
-    return str(value).strip()
 
 
 def appledb_identifiers(device: dict) -> list[str]:
@@ -231,36 +269,71 @@ def appledb_identifiers(device: dict) -> list[str]:
     return [item for item in ident if isinstance(item, str)]
 
 
-def parse_appledb(devices: list) -> list[dict]:
+def parse_appledb(devices: list) -> tuple[list[dict], dict]:
     parsed: list[dict] = []
     seen: set[str] = set()
+    stats = {
+        "source_records": len(devices),
+        "mapped": 0,
+        "skipped_unreleased": 0,
+        "skipped_non_mobile": 0,
+        "ipad_by_year": {},
+        "iphone_count": 0,
+        "ipad_count": 0,
+        "ipod_count": 0,
+    }
+    hardware_seen: set[str] = set()
     for device in devices:
         name = as_text(device.get("name"))
-        if not name or name.lower().startswith("unreleased"):
-            continue
+        released = as_text(device.get("released"))
+        year = released[:4] if len(released) >= 4 and released[:4].isdigit() else None
         device_type = as_text(device.get("type"))
         soc = as_text(device.get("soc"))
         for model_id in appledb_identifiers(device):
-            if not IPAD_HW_ID_RE.match(model_id) or model_id in seen:
+            if not IOS_HW_ID_RE.match(model_id):
+                if (
+                    re.match(r"^(Watch|AppleTV|RealityDevice)\d", model_id)
+                    and model_id not in hardware_seen
+                ):
+                    hardware_seen.add(model_id)
+                    stats["skipped_non_mobile"] += 1
+                continue
+            if model_id in seen:
+                continue
+            if name.lower().startswith("unreleased"):
+                stats["skipped_unreleased"] += 1
                 continue
             seen.add(model_id)
+            position = infer_ios_position(model_id, name, device_type, soc)
             parsed.append(
                 {
                     "model_id": model_id,
-                    "market_name": name,
+                    "market_name": name or model_id,
                     "platform": "iOS",
-                    "camera_position_portrait": infer_ipad_position(
-                        name, device_type, soc
-                    ),
+                    "camera_position_portrait": position,
+                    "released_year": year,
                 }
             )
-    return parsed
+            stats["mapped"] += 1
+            if model_id.startswith("iPhone"):
+                stats["iphone_count"] += 1
+            elif model_id.startswith("iPad"):
+                stats["ipad_count"] += 1
+                bucket = stats["ipad_by_year"].setdefault(
+                    year or "unknown", {"total": 0, "RIGHT": 0, "TOP": 0, "LEFT": 0}
+                )
+                bucket["total"] += 1
+                bucket[position] += 1
+            elif model_id.startswith("iPod"):
+                stats["ipod_count"] += 1
+    stats["skipped_non_mobile_unique"] = stats["skipped_non_mobile"]
+    return parsed, stats
 
 
 def parse_devicekit(source: str) -> list[dict]:
     family_names: dict[str, str] = {}
     for market_name, family in DEVICEKIT_NAME_RE.findall(source):
-        if family.startswith("iPad"):
+        if family.startswith(("iPad", "iPhone", "iPod")):
             family_names[family] = market_name
 
     devices: list[dict] = []
@@ -269,7 +342,7 @@ def parse_devicekit(source: str) -> list[dict]:
         market_name = family_names.get(family, family)
         position = infer_ipad_position_from_family(family, market_name)
         for model_id in IDENTIFIER_RE.findall(identifier_blob):
-            if model_id in seen:
+            if not IOS_HW_ID_RE.match(model_id) or model_id in seen:
                 continue
             seen.add(model_id)
             devices.append(
@@ -283,69 +356,113 @@ def parse_devicekit(source: str) -> list[dict]:
     return devices
 
 
-def infer_samsung_position(_model_id: str, market_name: str) -> str | None:
-    if SAMSUNG_LANDSCAPE_NAME_RE.search(market_name + " "):
-        return "RIGHT"
+def is_android_tablet(model_id: str, name: str) -> bool:
+    if SAMSUNG_TABLET_MODEL_RE.match(model_id):
+        return True
+    return bool(TABLET_NAME_RE.search(name))
+
+
+def infer_android_position(model_id: str, brand: str, name: str) -> str | None:
+    blob = "{brand} {name}".format(brand=brand, name=name)
+    if not name:
+        return None
+    if NON_MOBILE_RE.search(blob) and not TABLET_NAME_RE.search(name):
+        return None
+    if is_android_tablet(model_id, name):
+        if SAMSUNG_LANDSCAPE_NAME_RE.search(name + " "):
+            return "RIGHT"
+        if OTHER_LANDSCAPE_TABLET_RE.search(name):
+            return "RIGHT"
+        return "TOP"
+    return "TOP"
+
+
+def first_entry(entries) -> dict | None:
+    if not isinstance(entries, list):
+        entries = [entries]
+    for entry in entries:
+        if isinstance(entry, dict):
+            return entry
     return None
 
 
-def parse_androidtrackers(by_model: dict) -> list[dict]:
+def parse_androidtrackers(by_model: dict) -> tuple[list[dict], dict]:
     devices: list[dict] = []
-    seen: set[str] = set()
+    stats = {
+        "source_keys": len(by_model),
+        "mapped": 0,
+        "mapped_phones": 0,
+        "mapped_tablets": 0,
+        "mapped_right": 0,
+        "mapped_top": 0,
+        "skipped_empty_name": 0,
+        "skipped_non_mobile": 0,
+        "skipped_malformed": 0,
+    }
     for model_id, entries in by_model.items():
-        if not SAMSUNG_MODEL_RE.match(model_id) or model_id in seen:
+        model_id = (model_id or "").strip()
+        if not model_id:
+            stats["skipped_malformed"] += 1
             continue
-        if not isinstance(entries, list):
-            entries = [entries]
-        for entry in entries:
-            if not isinstance(entry, dict):
-                continue
-            brand = (entry.get("brand") or "").strip()
-            name = (entry.get("name") or "").strip()
-            if brand.lower() != "samsung" or "tab" not in name.lower():
-                continue
-            position = infer_samsung_position(model_id, name)
-            if position is None:
-                continue
-            seen.add(model_id)
-            devices.append(
-                {
-                    "model_id": model_id,
-                    "market_name": name,
-                    "platform": "Android",
-                    "camera_position_portrait": position,
-                }
-            )
-            break
-    return devices
-
-
-def parse_play_samsung_tablets(csv_text: str) -> list[dict]:
-    sample = csv_text.lstrip("\ufeff")
-    reader = csv.DictReader(io.StringIO(sample))
-    devices: list[dict] = []
-    seen: set[str] = set()
-
-    for row in reader:
-        branding = (row.get("Retail Branding") or row.get("Retail_Branding") or "").strip()
-        market_name = (row.get("Marketing Name") or row.get("Marketing_Name") or "").strip()
-        model_id = (row.get("Model") or "").strip()
-        if branding.lower() != "samsung":
+        entry = first_entry(entries)
+        if entry is None:
+            stats["skipped_malformed"] += 1
             continue
-        if not SAMSUNG_MODEL_RE.match(model_id):
+        brand = (entry.get("brand") or "").strip()
+        name = (entry.get("name") or "").strip()
+        if not name:
+            stats["skipped_empty_name"] += 1
             continue
-        if "tab" not in market_name.lower():
-            continue
-        position = infer_samsung_position(model_id, market_name)
+        position = infer_android_position(model_id, brand, name)
         if position is None:
+            stats["skipped_non_mobile"] += 1
             continue
-        if model_id in seen:
-            continue
-        seen.add(model_id)
+        market_name = name if name else model_id
+        if brand and not market_name.lower().startswith(brand.lower()):
+            market_name = "{brand} {name}".format(brand=brand, name=name)
+        tablet = is_android_tablet(model_id, name)
         devices.append(
             {
                 "model_id": model_id,
                 "market_name": market_name,
+                "platform": "Android",
+                "camera_position_portrait": position,
+            }
+        )
+        stats["mapped"] += 1
+        if tablet:
+            stats["mapped_tablets"] += 1
+        else:
+            stats["mapped_phones"] += 1
+        if position == "RIGHT":
+            stats["mapped_right"] += 1
+        else:
+            stats["mapped_top"] += 1
+    return devices, stats
+
+
+def parse_play_csv(csv_text: str) -> list[dict]:
+    sample = csv_text.lstrip("\ufeff")
+    reader = csv.DictReader(io.StringIO(sample))
+    devices: list[dict] = []
+    seen: set[str] = set()
+    for row in reader:
+        branding = (row.get("Retail Branding") or row.get("Retail_Branding") or "").strip()
+        market_name = (row.get("Marketing Name") or row.get("Marketing_Name") or "").strip()
+        model_id = (row.get("Model") or "").strip()
+        if not model_id or model_id in seen:
+            continue
+        position = infer_android_position(model_id, branding, market_name)
+        if position is None:
+            continue
+        seen.add(model_id)
+        label = market_name or model_id
+        if branding and not label.lower().startswith(branding.lower()):
+            label = "{brand} {name}".format(brand=branding, name=market_name)
+        devices.append(
+            {
+                "model_id": model_id,
+                "market_name": label,
                 "platform": "Android",
                 "camera_position_portrait": position,
             }
@@ -379,6 +496,26 @@ def merge_devices(
     return added, renamed
 
 
+def render_insert_batch(rows: list[dict]) -> str:
+    lines = [
+        "INSERT OR IGNORE INTO devices "
+        "(model_id, market_name, platform, camera_position_portrait, updated_at) VALUES"
+    ]
+    values = []
+    for device in rows:
+        values.append(
+            "  ('{model_id}', '{market_name}', '{platform}', '{position}', '{updated_at}')".format(
+                model_id=sql_escape(device["model_id"]),
+                market_name=sql_escape(device["market_name"]),
+                platform=sql_escape(device["platform"]),
+                position=sql_escape(device["camera_position_portrait"]),
+                updated_at=sql_escape(device["updated_at"]),
+            )
+        )
+    lines.append(",\n".join(values) + ";")
+    return "\n".join(lines)
+
+
 def render_schema(devices: dict[str, dict]) -> str:
     grouped: dict[tuple[str, str], list[dict]] = {}
     for device in devices.values():
@@ -401,25 +538,11 @@ def render_schema(devices: dict[str, dict]) -> str:
             "TOP": "short-edge front camera (TOP in portrait)",
             "LEFT": "long-edge front camera (LEFT in portrait)",
         }[position]
-        chunks.append("-- {platform} / {position} — {label}".format(
-            platform=platform, position=position, label=label
+        chunks.append("-- {platform} / {position} — {label} ({count} rows)".format(
+            platform=platform, position=position, label=label, count=len(rows)
         ))
-        chunks.append(
-            "INSERT OR IGNORE INTO devices "
-            "(model_id, market_name, platform, camera_position_portrait, updated_at) VALUES"
-        )
-        value_lines = []
-        for device in rows:
-            value_lines.append(
-                "  ('{model_id}', '{market_name}', '{platform}', '{position}', '{updated_at}')".format(
-                    model_id=sql_escape(device["model_id"]),
-                    market_name=sql_escape(device["market_name"]),
-                    platform=sql_escape(device["platform"]),
-                    position=sql_escape(device["camera_position_portrait"]),
-                    updated_at=sql_escape(device["updated_at"]),
-                )
-            )
-        chunks.append(",\n".join(value_lines) + ";")
+        for index in range(0, len(rows), INSERT_BATCH):
+            chunks.append(render_insert_batch(rows[index:index + INSERT_BATCH]))
         chunks.append("")
     return "\n".join(chunks).rstrip() + "\n"
 
@@ -427,6 +550,109 @@ def render_schema(devices: dict[str, dict]) -> str:
 def write_schema(schema_sql: str) -> None:
     with open(SCHEMA_PATH, "w", encoding="utf-8", newline="\n") as handle:
         handle.write(schema_sql)
+
+
+def catalog_stats(devices: dict[str, dict], ios_source_stats: dict, android_source_stats: dict) -> dict:
+    by_platform: dict[str, int] = {}
+    by_position: dict[str, int] = {}
+    by_platform_position: dict[str, int] = {}
+    for device in devices.values():
+        by_platform[device["platform"]] = by_platform.get(device["platform"], 0) + 1
+        by_position[device["camera_position_portrait"]] = (
+            by_position.get(device["camera_position_portrait"], 0) + 1
+        )
+        key = "{platform}/{position}".format(
+            platform=device["platform"],
+            position=device["camera_position_portrait"],
+        )
+        by_platform_position[key] = by_platform_position.get(key, 0) + 1
+
+    total = len(devices)
+    def pct(part: int) -> float:
+        return round(100.0 * part / total, 2) if total else 0.0
+
+    play_keys = android_source_stats.get("source_keys") or 0
+    apple_mobile = ios_source_stats.get("mapped") or 0
+    return {
+        "generated_at": utc_now(),
+        "catalog_total": total,
+        "by_platform": by_platform,
+        "by_position": by_position,
+        "by_position_pct": {key: pct(value) for key, value in by_position.items()},
+        "by_platform_position": by_platform_position,
+        "ios_source": ios_source_stats,
+        "android_source": android_source_stats,
+        "coverage": {
+            "appledb_mobile_mapped": apple_mobile,
+            "play_keys": play_keys,
+            "play_mapped": android_source_stats.get("mapped") or 0,
+            "play_mapped_pct": round(
+                100.0 * (android_source_stats.get("mapped") or 0) / play_keys, 2
+            )
+            if play_keys
+            else 0.0,
+        },
+    }
+
+
+def write_stats(stats: dict) -> None:
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    with open(STATS_PATH, "w", encoding="utf-8", newline="\n") as handle:
+        json.dump(stats, handle, indent=2, ensure_ascii=False)
+        handle.write("\n")
+
+
+def print_stats(stats: dict) -> None:
+    total = stats["catalog_total"]
+    print("Coverage")
+    print("  catalog total: {total}".format(total=total))
+    for key, value in sorted(stats["by_platform_position"].items()):
+        print("    {key}: {value} ({pct}%)".format(
+            key=key, value=value, pct=round(100.0 * value / total, 2) if total else 0
+        ))
+    ios = stats["ios_source"]
+    print(
+        "  AppleDB: {mapped} iPhone/iPad/iPod mapped "
+        "(iPhone {iphone}, iPad {ipad}, iPod {ipod}); "
+        "skipped unreleased {unrel}, Watch/TV/Vision {skip}".format(
+            mapped=ios.get("mapped", 0),
+            iphone=ios.get("iphone_count", 0),
+            ipad=ios.get("ipad_count", 0),
+            ipod=ios.get("ipod_count", 0),
+            unrel=ios.get("skipped_unreleased", 0),
+            skip=ios.get("skipped_non_mobile", 0),
+        )
+    )
+    aos = stats["android_source"]
+    play_keys = aos.get("source_keys", 0)
+    mapped = aos.get("mapped", 0)
+    print(
+        "  Play JSON: {keys} keys → {mapped} mapped ({pct}%); "
+        "phones {phones}, tablets {tabs}; skipped empty {empty}, non-mobile {skip}".format(
+            keys=play_keys,
+            mapped=mapped,
+            pct=round(100.0 * mapped / play_keys, 2) if play_keys else 0,
+            phones=aos.get("mapped_phones", 0),
+            tabs=aos.get("mapped_tablets", 0),
+            empty=aos.get("skipped_empty_name", 0),
+            skip=aos.get("skipped_non_mobile", 0),
+        )
+    )
+    years = ios.get("ipad_by_year") or {}
+    if years:
+        print("  iPad camera by release year:")
+        for year in sorted(years):
+            bucket = years[year]
+            right = bucket.get("RIGHT", 0)
+            total_year = bucket.get("total", 0) or 1
+            print(
+                "    {year}: {total} ids, RIGHT {right} ({pct}%)".format(
+                    year=year,
+                    total=bucket.get("total", 0),
+                    right=right,
+                    pct=round(100.0 * right / total_year, 1),
+                )
+            )
 
 
 def load_play_devices() -> list[dict]:
@@ -437,37 +663,38 @@ def load_play_devices() -> list[dict]:
         except UnicodeDecodeError:
             continue
         if "Marketing Name" in text or "Retail Branding" in text:
-            return parse_play_samsung_tablets(text)
+            return parse_play_csv(text)
     raise RuntimeError("Could not decode Google Play supported-devices.csv")
 
 
-def load_ios_devices() -> tuple[list[dict], str]:
+def load_ios_devices() -> tuple[list[dict], str, dict]:
     print("Fetching AppleDB…")
     try:
         catalog = fetch_json(APPLEDB_DEVICES_URL)
-        ipads = parse_appledb(catalog)
-        if ipads:
-            print("  parsed {count} iPad identifiers".format(count=len(ipads)))
-            return ipads, "AppleDB"
-        print("  AppleDB returned no iPad identifiers; falling back", file=sys.stderr)
+        devices, stats = parse_appledb(catalog)
+        if devices:
+            print("  parsed {count} iPhone/iPad/iPod identifiers".format(count=len(devices)))
+            return devices, "AppleDB", stats
+        print("  AppleDB returned no mobile identifiers; falling back", file=sys.stderr)
     except Exception as exc:  # noqa: BLE001
         print("  AppleDB failed ({exc}); falling back to DeviceKit".format(exc=exc), file=sys.stderr)
 
     print("Fetching DeviceKit…")
-    ipads = parse_devicekit(fetch_text(DEVICEKIT_URL))
-    print("  parsed {count} iPad identifiers".format(count=len(ipads)))
-    return ipads, "DeviceKit"
+    devices = parse_devicekit(fetch_text(DEVICEKIT_URL))
+    print("  parsed {count} iOS identifiers".format(count=len(devices)))
+    stats = {"mapped": len(devices), "fallback": "DeviceKit"}
+    return devices, "DeviceKit", stats
 
 
-def load_android_devices() -> tuple[list[dict], str]:
+def load_android_devices() -> tuple[list[dict], str, dict]:
     print("Fetching androidtrackers certified-android-devices…")
     try:
         by_model = fetch_json(ANDROIDTRACKERS_BY_MODEL_URL)
-        tablets = parse_androidtrackers(by_model)
-        if tablets:
-            print("  parsed {count} Galaxy Tab landscape-camera models".format(count=len(tablets)))
-            return tablets, "androidtrackers"
-        print("  androidtrackers returned no tablet models; falling back", file=sys.stderr)
+        devices, stats = parse_androidtrackers(by_model)
+        if devices:
+            print("  parsed {count} Android identifiers".format(count=len(devices)))
+            return devices, "androidtrackers", stats
+        print("  androidtrackers returned no models; falling back", file=sys.stderr)
     except Exception as exc:  # noqa: BLE001
         print(
             "  androidtrackers failed ({exc}); falling back to Google Play CSV".format(exc=exc),
@@ -475,9 +702,10 @@ def load_android_devices() -> tuple[list[dict], str]:
         )
 
     print("Fetching Google Play supported devices…")
-    tablets = load_play_devices()
-    print("  parsed {count} Galaxy Tab landscape-camera models".format(count=len(tablets)))
-    return tablets, "Google Play CSV"
+    devices = load_play_devices()
+    print("  parsed {count} Android identifiers".format(count=len(devices)))
+    stats = {"mapped": len(devices), "fallback": "Google Play CSV"}
+    return devices, "Google Play CSV", stats
 
 
 def sync(include_android: bool = True) -> int:
@@ -486,20 +714,23 @@ def sync(include_android: bool = True) -> int:
     devices = parse_schema_devices(schema_sql)
 
     now = utc_now()
-    ipads, ios_source = load_ios_devices()
-    added_ios, renamed_ios = merge_devices(devices, ipads, now)
+    ios_rows, ios_source, ios_stats = load_ios_devices()
+    added_ios, renamed_ios = merge_devices(devices, ios_rows, now)
 
     added_android: list[str] = []
     renamed_android: list[str] = []
     android_source = "skipped"
+    android_stats: dict = {}
     if include_android:
         try:
-            tablets, android_source = load_android_devices()
-            added_android, renamed_android = merge_devices(devices, tablets, now)
+            android_rows, android_source, android_stats = load_android_devices()
+            added_android, renamed_android = merge_devices(devices, android_rows, now)
         except Exception as exc:  # noqa: BLE001
             print("  skipped Android sync: {exc}".format(exc=exc), file=sys.stderr)
 
     write_schema(render_schema(devices))
+    stats = catalog_stats(devices, ios_stats, android_stats)
+    write_stats(stats)
 
     added = added_ios + added_android
     renamed = renamed_ios + renamed_android
@@ -507,24 +738,21 @@ def sync(include_android: bool = True) -> int:
     print("  iOS source: {source}".format(source=ios_source))
     print("  Android source: {source}".format(source=android_source))
     if added:
-        preview = ", ".join(sorted(added)[:20])
-        extra = "" if len(added) <= 20 else " …"
-        print("  added ({count}): {preview}{extra}".format(
-            count=len(added), preview=preview, extra=extra
-        ))
+        print("  added {count} identifiers".format(count=len(added)))
     if renamed:
         print("  refreshed {count} market names".format(count=len(renamed)))
     if not added and not renamed:
         print("  no catalog changes")
+    print_stats(stats)
     return 0
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Sync tablet identifiers into schema.sql")
+    parser = argparse.ArgumentParser(description="Sync device identifiers into schema.sql")
     parser.add_argument(
         "--ios-only",
         action="store_true",
-        help="Only sync iPad identifiers from AppleDB",
+        help="Only sync iPhone/iPad/iPod identifiers from AppleDB",
     )
     args = parser.parse_args()
     return sync(include_android=not args.ios_only)

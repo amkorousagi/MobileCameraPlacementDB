@@ -37,8 +37,7 @@ jobs:
           rows = json.load(open("output/devices.json", encoding="utf-8"))
           required = {
               "iPad13,18", "iPad14,8", "iPad14,11", "iPad16,3", "iPad16,6",
-              "SM-X700", "SM-X800", "SM-X900", "SM-X710", "SM-X810",
-              "SM-X910", "SM-X820", "SM-X920",
+              "iPad14,3", "iPhone17,1", "SM-X200", "SM-X700", "SM-X910",
           }
           present = {row["model_id"] for row in rows}
           missing = required - present
