@@ -40,7 +40,7 @@ Not used: [KHwang9883/MobileModels](https://github.com/KHwang9883/MobileModels) 
 .
 ├── schema.sql              # SQLite DDL + seed / catalog INSERTs
 ├── build_data.py           # Rebuilds SQLite, JSON, XML, CSV from schema.sql
-├── sync_sources.py         # Monthly AppleDB + Google Play identifier sync
+├── sync_sources.py         # Monthly AppleDB + certified Android identifier sync
 ├── output/
 │   ├── devices.db
 │   ├── devices.json
