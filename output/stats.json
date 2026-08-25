@@ -1,0 +1,132 @@
+{
+  "catalog_total": 42418,
+  "by_platform": {
+    "iOS": 175,
+    "Android": 42243
+  },
+  "by_position": {
+    "TOP": 42173,
+    "RIGHT": 245,
+    "LEFT": 0
+  },
+  "by_position_pct": {
+    "TOP": 99.42,
+    "RIGHT": 0.58,
+    "LEFT": 0.0
+  },
+  "by_platform_position": {
+    "iOS": {
+      "RIGHT": 24,
+      "TOP": 151
+    },
+    "Android": {
+      "RIGHT": 221,
+      "TOP": 42022
+    }
+  },
+  "sources": {
+    "ios": {
+      "source": "AppleDB (api.appledb.dev/device/main.json.gz)",
+      "skipped_unreleased": 9,
+      "skipped_watch": 60,
+      "skipped_apple_tv": 11,
+      "skipped_vision": 2,
+      "mapped_iphone": 63,
+      "mapped_ipad": 105,
+      "mapped_ipod": 7,
+      "mapped_total": 175
+    },
+    "android": {
+      "source": "Google Play certified devices (androidtrackers by_model.json, daily mirror of official CSV)",
+      "skipped_empty_name": 820,
+      "skipped_non_mobile": 1018,
+      "mapped": 42243,
+      "mapped_phones": 38643,
+      "mapped_tablets": 3600,
+      "mapped_pct": 95.83,
+      "source_keys": 44081
+    }
+  },
+  "ipad_by_release_year": {
+    "2010": {
+      "total": 1,
+      "RIGHT": 0,
+      "TOP": 1
+    },
+    "2011": {
+      "total": 3,
+      "RIGHT": 0,
+      "TOP": 3
+    },
+    "2012": {
+      "total": 10,
+      "RIGHT": 0,
+      "TOP": 10
+    },
+    "2013": {
+      "total": 4,
+      "RIGHT": 0,
+      "TOP": 4
+    },
+    "2014": {
+      "total": 7,
+      "RIGHT": 0,
+      "TOP": 7
+    },
+    "2015": {
+      "total": 4,
+      "RIGHT": 0,
+      "TOP": 4
+    },
+    "2016": {
+      "total": 2,
+      "RIGHT": 0,
+      "TOP": 2
+    },
+    "2017": {
+      "total": 6,
+      "RIGHT": 0,
+      "TOP": 6
+    },
+    "2018": {
+      "total": 10,
+      "RIGHT": 0,
+      "TOP": 10
+    },
+    "2019": {
+      "total": 6,
+      "RIGHT": 0,
+      "TOP": 6
+    },
+    "2020": {
+      "total": 8,
+      "RIGHT": 0,
+      "TOP": 8
+    },
+    "2021": {
+      "total": 12,
+      "RIGHT": 0,
+      "TOP": 12
+    },
+    "2022": {
+      "total": 8,
+      "RIGHT": 2,
+      "TOP": 6
+    },
+    "2024": {
+      "total": 10,
+      "RIGHT": 8,
+      "TOP": 2
+    },
+    "2025": {
+      "total": 10,
+      "RIGHT": 10,
+      "TOP": 0
+    },
+    "2026": {
+      "total": 4,
+      "RIGHT": 4,
+      "TOP": 0
+    }
+  }
+}
