@@ -42,6 +42,19 @@ def write_csv(rows, path):
         writer.writerows(rows)
 
 
+def write_min_csv(rows, path):
+    """Minimal lookup table for memory-constrained apps.
+
+    No header; two columns: model_id, camera_position_portrait as a single
+    uppercase letter (T=TOP, R=RIGHT, L=LEFT). Row order matches the other
+    outputs (ORDER BY id).
+    """
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        for row in rows:
+            writer.writerow([row[1], row[4][0]])
+
+
 def write_xml(rows, path):
     root = ET.Element("devices", {"count": str(len(rows))})
     for row in rows:
@@ -69,9 +82,11 @@ def main():
 
     write_json(rows, os.path.join(OUTPUT_DIR, "devices.json"))
     write_csv(rows, os.path.join(OUTPUT_DIR, "devices.csv"))
+    write_min_csv(rows, os.path.join(OUTPUT_DIR, "devices.min.csv"))
     write_xml(rows, os.path.join(OUTPUT_DIR, "devices.xml"))
 
-    print(f"built {len(rows)} devices -> output/devices.{{db,json,csv,xml}}")
+    print(f"built {len(rows)} devices -> "
+          f"output/devices.{{db,json,csv,min.csv,xml}}")
 
 
 if __name__ == "__main__":
