@@ -1,17 +1,17 @@
 {
-  "catalog_total": 42418,
+  "catalog_total": 42423,
   "by_platform": {
     "iOS": 175,
-    "Android": 42243
+    "Android": 42248
   },
   "by_position": {
-    "TOP": 42173,
-    "RIGHT": 245,
+    "TOP": 42188,
+    "RIGHT": 235,
     "LEFT": 0
   },
   "by_position_pct": {
-    "TOP": 99.42,
-    "RIGHT": 0.58,
+    "TOP": 99.45,
+    "RIGHT": 0.55,
     "LEFT": 0.0
   },
   "by_platform_position": {
@@ -20,8 +20,8 @@
       "TOP": 151
     },
     "Android": {
-      "RIGHT": 221,
-      "TOP": 42022
+      "RIGHT": 211,
+      "TOP": 42037
     }
   },
   "sources": {
@@ -39,12 +39,12 @@
     "android": {
       "source": "Google Play certified devices (androidtrackers by_model.json, daily mirror of official CSV)",
       "skipped_empty_name": 820,
-      "skipped_non_mobile": 1018,
-      "mapped": 42243,
-      "mapped_phones": 38643,
+      "skipped_non_mobile": 1019,
+      "mapped": 42248,
+      "mapped_phones": 38648,
       "mapped_tablets": 3600,
       "mapped_pct": 95.83,
-      "source_keys": 44081
+      "source_keys": 44087
     }
   },
   "ipad_by_release_year": {

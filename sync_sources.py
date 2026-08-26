@@ -183,6 +183,17 @@ def classify_android(brand, name):
     """
     low = name.lower()
     blow = brand.lower()
+    # verified short-edge exceptions inside otherwise landscape-first
+    # families (see docs/camera-position-references.md)
+    if re.search(r"\bpad mini\b", low):
+        return "TOP"  # Oppo Pad Mini, Xiaomi Pad Mini (~8.x", portrait camera)
+    if re.search(r"xiaomi pad 5\b", low):
+        return "TOP"  # Pad 5 family is short-edge; long edge starts with Pad 6
+                      # (existing 22081281AC = Pad 5 Pro 12.4 RIGHT is preserved)
+    if re.search(r"redmi pad se (8\.7|4g)", low):
+        return "TOP"  # 8.7" SE line is phone-style (4G = SE 8.7 in India)
+    if "honor pad x7" in low:
+        return "TOP"  # 8.7" phone-style
     m = GALAXY_TAB_S_RE.search(low)
     if m and int(m.group(1)) >= 7:
         return "RIGHT"  # Tab S7+ era incl. +/Ultra/FE/Lite

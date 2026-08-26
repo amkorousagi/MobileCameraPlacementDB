@@ -50,7 +50,12 @@
 | 폰 전체 | `TOP` (폴더블 내부 카메라는 예외일 수 있으나 `Build.MODEL` 단위 관례상 `TOP`) |
 | Galaxy Tab S7 이상 (S8/S9/S10/…, +/Ultra/FE/Lite 포함) | `RIGHT` |
 | Pixel Tablet, OnePlus Pad, OPPO Pad, Xiaomi/Redmi/POCO Pad, Honor Pad/MagicPad, Huawei MatePad Pro, Lenovo Tab P11/P12 | `RIGHT` |
+| 위 패밀리 중 검증된 예외: Oppo/Xiaomi **Pad Mini**, **Xiaomi Pad 5 세대**(12.4 제외), **Redmi Pad SE 8.7/SE 4G**, **Honor Pad X7** | `TOP` |
 | 그 외 태블릿 (Tab A8, A7, S6, Active 등) | `TOP` |
+
+규칙으로 추론된 비삼성 Android 태블릿 130행(83개 제품)은 공식 제품 페이지·매뉴얼·주요 매체 리뷰 이미지로 전수 검증했습니다.
+제품별 근거 링크는 [docs/camera-position-references.md](docs/camera-position-references.md) 참조.
+~9인치 미만 소형 태블릿은 세로 우선(짧은 변)으로 회귀하는 경향이 있어 신규 소형 기기는 개별 확인이 필요합니다.
 
 ## iPad의 RIGHT(가로 우선) 전환 경향
 
