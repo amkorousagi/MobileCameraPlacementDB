@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<devices count="42418">
+<devices count="42423">
   <device>
     <id>1</id>
     <model_id>iPad13,18</model_id>
@@ -3477,16 +3477,16 @@
     <model_id>21051182C</model_id>
     <market_name>Xiaomi Pad 5</market_name>
     <platform>Android</platform>
-    <camera_position_portrait>RIGHT</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-26T00:00:00Z</updated_at>
   </device>
   <device>
     <id>436</id>
     <model_id>21051182G</model_id>
     <market_name>Xiaomi Pad 5</market_name>
     <platform>Android</platform>
-    <camera_position_portrait>RIGHT</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-26T00:00:00Z</updated_at>
   </device>
   <device>
     <id>437</id>
@@ -5453,24 +5453,24 @@
     <model_id>24075RP89G</model_id>
     <market_name>Redmi Pad SE 8.7</market_name>
     <platform>Android</platform>
-    <camera_position_portrait>RIGHT</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-26T00:00:00Z</updated_at>
   </device>
   <device>
     <id>683</id>
     <model_id>24076RP19G</model_id>
     <market_name>Redmi Pad SE 8.7 4G</market_name>
     <platform>Android</platform>
-    <camera_position_portrait>RIGHT</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-26T00:00:00Z</updated_at>
   </device>
   <device>
     <id>684</id>
     <model_id>24076RP19I</model_id>
     <market_name>Redmi Pad SE 4G</market_name>
     <platform>Android</platform>
-    <camera_position_portrait>RIGHT</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-26T00:00:00Z</updated_at>
   </device>
   <device>
     <id>685</id>
@@ -6245,8 +6245,8 @@
     <model_id>25079RPDCG</model_id>
     <market_name>Xiaomi Pad Mini</market_name>
     <platform>Android</platform>
-    <camera_position_portrait>RIGHT</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-26T00:00:00Z</updated_at>
   </device>
   <device>
     <id>782</id>
@@ -125101,8 +125101,8 @@
     <model_id>JMS-W09</model_id>
     <market_name>HONOR Pad X7</market_name>
     <platform>Android</platform>
-    <camera_position_portrait>RIGHT</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-26T00:00:00Z</updated_at>
   </device>
   <device>
     <id>15639</id>
@@ -158861,16 +158861,16 @@
     <model_id>M2105K81AC</model_id>
     <market_name>Xiaomi Pad 5 Pro</market_name>
     <platform>Android</platform>
-    <camera_position_portrait>RIGHT</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-26T00:00:00Z</updated_at>
   </device>
   <device>
     <id>19859</id>
     <model_id>M2105K81C</model_id>
     <market_name>Xiaomi Pad 5 Pro 5G</market_name>
     <platform>Android</platform>
-    <camera_position_portrait>RIGHT</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-26T00:00:00Z</updated_at>
   </device>
   <device>
     <id>19860</id>
@@ -186765,8 +186765,8 @@
     <model_id>OPD2515</model_id>
     <market_name>Oppo Pad Mini</market_name>
     <platform>Android</platform>
-    <camera_position_portrait>RIGHT</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-26T00:00:00Z</updated_at>
   </device>
   <device>
     <id>23347</id>
@@ -198843,10 +198843,10 @@
   <device>
     <id>24856</id>
     <model_id>PM452</model_id>
-    <market_name>PointMobile PM452</market_name>
+    <market_name>Point Mobile PM452</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-08-26T00:00:00Z</updated_at>
   </device>
   <device>
     <id>24857</id>
@@ -339343,5 +339343,45 @@
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
     <updated_at>2026-08-25T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42419</id>
+    <model_id>Hisense U968</model_id>
+    <market_name>Hisense HLTE243E</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-26T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42420</id>
+    <model_id>MPT-1011</model_id>
+    <market_name>Maspower K7MPT-1011</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-26T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42421</id>
+    <model_id>Permaray3576-IFPD</model_id>
+    <market_name>Permaray3576-IFPD</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-26T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42422</id>
+    <model_id>S3_E</model_id>
+    <market_name>SUAAT S3_E</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-26T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42423</id>
+    <model_id>SM-A085M</model_id>
+    <market_name>Samsung Galaxy A08</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-08-26T00:00:00Z</updated_at>
   </device>
 </devices>

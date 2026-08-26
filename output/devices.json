@@ -3476,16 +3476,16 @@
     "model_id": "21051182C",
     "market_name": "Xiaomi Pad 5",
     "platform": "Android",
-    "camera_position_portrait": "RIGHT",
-    "updated_at": "2026-08-25T00:00:00Z"
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-26T00:00:00Z"
   },
   {
     "id": 436,
     "model_id": "21051182G",
     "market_name": "Xiaomi Pad 5",
     "platform": "Android",
-    "camera_position_portrait": "RIGHT",
-    "updated_at": "2026-08-25T00:00:00Z"
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-26T00:00:00Z"
   },
   {
     "id": 437,
@@ -5452,24 +5452,24 @@
     "model_id": "24075RP89G",
     "market_name": "Redmi Pad SE 8.7",
     "platform": "Android",
-    "camera_position_portrait": "RIGHT",
-    "updated_at": "2026-08-25T00:00:00Z"
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-26T00:00:00Z"
   },
   {
     "id": 683,
     "model_id": "24076RP19G",
     "market_name": "Redmi Pad SE 8.7 4G",
     "platform": "Android",
-    "camera_position_portrait": "RIGHT",
-    "updated_at": "2026-08-25T00:00:00Z"
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-26T00:00:00Z"
   },
   {
     "id": 684,
     "model_id": "24076RP19I",
     "market_name": "Redmi Pad SE 4G",
     "platform": "Android",
-    "camera_position_portrait": "RIGHT",
-    "updated_at": "2026-08-25T00:00:00Z"
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-26T00:00:00Z"
   },
   {
     "id": 685,
@@ -6244,8 +6244,8 @@
     "model_id": "25079RPDCG",
     "market_name": "Xiaomi Pad Mini",
     "platform": "Android",
-    "camera_position_portrait": "RIGHT",
-    "updated_at": "2026-08-25T00:00:00Z"
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-26T00:00:00Z"
   },
   {
     "id": 782,
@@ -125100,8 +125100,8 @@
     "model_id": "JMS-W09",
     "market_name": "HONOR Pad X7",
     "platform": "Android",
-    "camera_position_portrait": "RIGHT",
-    "updated_at": "2026-08-25T00:00:00Z"
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-26T00:00:00Z"
   },
   {
     "id": 15639,
@@ -158860,16 +158860,16 @@
     "model_id": "M2105K81AC",
     "market_name": "Xiaomi Pad 5 Pro",
     "platform": "Android",
-    "camera_position_portrait": "RIGHT",
-    "updated_at": "2026-08-25T00:00:00Z"
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-26T00:00:00Z"
   },
   {
     "id": 19859,
     "model_id": "M2105K81C",
     "market_name": "Xiaomi Pad 5 Pro 5G",
     "platform": "Android",
-    "camera_position_portrait": "RIGHT",
-    "updated_at": "2026-08-25T00:00:00Z"
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-26T00:00:00Z"
   },
   {
     "id": 19860,
@@ -186764,8 +186764,8 @@
     "model_id": "OPD2515",
     "market_name": "Oppo Pad Mini",
     "platform": "Android",
-    "camera_position_portrait": "RIGHT",
-    "updated_at": "2026-08-25T00:00:00Z"
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-26T00:00:00Z"
   },
   {
     "id": 23347,
@@ -198842,10 +198842,10 @@
   {
     "id": 24856,
     "model_id": "PM452",
-    "market_name": "PointMobile PM452",
+    "market_name": "Point Mobile PM452",
     "platform": "Android",
     "camera_position_portrait": "TOP",
-    "updated_at": "2026-08-25T00:00:00Z"
+    "updated_at": "2026-08-26T00:00:00Z"
   },
   {
     "id": 24857,
@@ -339342,5 +339342,45 @@
     "platform": "Android",
     "camera_position_portrait": "TOP",
     "updated_at": "2026-08-25T00:00:00Z"
+  },
+  {
+    "id": 42419,
+    "model_id": "Hisense U968",
+    "market_name": "Hisense HLTE243E",
+    "platform": "Android",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-26T00:00:00Z"
+  },
+  {
+    "id": 42420,
+    "model_id": "MPT-1011",
+    "market_name": "Maspower K7MPT-1011",
+    "platform": "Android",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-26T00:00:00Z"
+  },
+  {
+    "id": 42421,
+    "model_id": "Permaray3576-IFPD",
+    "market_name": "Permaray3576-IFPD",
+    "platform": "Android",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-26T00:00:00Z"
+  },
+  {
+    "id": 42422,
+    "model_id": "S3_E",
+    "market_name": "SUAAT S3_E",
+    "platform": "Android",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-26T00:00:00Z"
+  },
+  {
+    "id": 42423,
+    "model_id": "SM-A085M",
+    "market_name": "Samsung Galaxy A08",
+    "platform": "Android",
+    "camera_position_portrait": "TOP",
+    "updated_at": "2026-08-26T00:00:00Z"
   }
 ]
