@@ -1,7 +1,7 @@
 # MobileCameraPlacementDB
 
 모바일 기기(폰/태블릿)의 **전면 카메라 위치**를 포트레이트 기준으로 매핑한 언어 비종속 카탈로그입니다.
-소스 오브 트루스는 [`schema.sql`](schema.sql) 하나이며, 여기서 SQLite / JSON / XML / CSV 4종을 생성합니다. MIT 라이선스.
+소스 오브 트루스는 [`schema.sql`](schema.sql) 하나이며, 여기서 SQLite / JSON / XML / CSV / 최소 CSV 5종을 생성합니다. MIT 라이선스.
 
 화상통화·시선 보정·카메라 UI 힌트처럼 "전면 카메라가 어느 변에 붙어 있는가"가 필요한
 앱에서 런타임 식별자만으로 조회할 수 있습니다.
@@ -73,7 +73,7 @@ Android는 Galaxy Tab S7(2020)이 같은 전환을 더 일찍 시작했고, 폰�
 ## 사용법
 
 ```bash
-# schema.sql -> output/devices.{db,json,xml,csv}  (표준 라이브러리만, 결정적 빌드)
+# schema.sql -> output/devices.{db,json,xml,csv,min.csv}  (표준 라이브러리만, 결정적 빌드)
 python build_data.py
 
 # 소스 동기화: 신규 model_id만 schema.sql에 추가, 기존 카메라 위치 보존,
@@ -87,6 +87,22 @@ python sync_sources.py
 SELECT camera_position_portrait FROM devices WHERE model_id = 'iPad16,3';  -- RIGHT
 SELECT camera_position_portrait FROM devices WHERE model_id = 'SM-X200';   -- TOP
 ```
+
+### 앱 임베드용 최소 CSV (`output/devices.min.csv`)
+
+앱 번들에 넣어 메모리 부담 없이 로드할 수 있는 최소 룩업 테이블입니다.
+
+- 헤더 없음, 2열: `model_id,camera_position` (행 순서는 다른 출력과 동일)
+- 카메라 위치는 단일 대문자: `T`=TOP, `R`=RIGHT, `L`=LEFT
+- 전체 CSV 대비 약 1/3 크기
+
+```csv
+"iPad16,3",R
+SM-X200,T
+```
+
+주의: iOS 식별자는 `model_id` 자체에 콤마가 있어(`iPad16,3`) CSV 규칙대로 큰따옴표로 감싸집니다.
+표준 CSV 파서를 사용하거나, 직접 파싱한다면 "마지막 콤마 뒤 1글자 = 위치, 그 앞 전체(따옴표 제거) = model_id"로 처리하세요.
 
 ## 유지보수 규칙
 
