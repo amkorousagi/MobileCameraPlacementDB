@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<devices count="42423">
+<devices count="42797">
   <device>
     <id>1</id>
     <model_id>iPad13,18</model_id>
@@ -18131,10 +18131,10 @@
   <device>
     <id>2267</id>
     <model_id>A15</model_id>
-    <market_name>FPT Trading A15</market_name>
+    <market_name>Acer A15</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>2268</id>
@@ -22723,10 +22723,10 @@
   <device>
     <id>2841</id>
     <model_id>AD-Z5</model_id>
-    <market_name>Crosscall Core-Z6</market_name>
+    <market_name>Crosscall CORE-Z6 450</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>2842</id>
@@ -31227,10 +31227,10 @@
   <device>
     <id>3904</id>
     <model_id>AURA PRO</model_id>
-    <market_name>Zuum AURA PRO</market_name>
+    <market_name>Evertek AURA PRO</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>3905</id>
@@ -32619,10 +32619,10 @@
   <device>
     <id>4078</id>
     <model_id>AZIMUT_4_LITE</model_id>
-    <market_name>Mediacom SP1AZ4_L</market_name>
+    <market_name>Mediacom M-SP11AZ46</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>4079</id>
@@ -32699,10 +32699,10 @@
   <device>
     <id>4088</id>
     <model_id>Ace</model_id>
-    <market_name>Hurricane Ace</market_name>
+    <market_name>Boltt Ace</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>4089</id>
@@ -112267,10 +112267,10 @@
   <device>
     <id>14034</id>
     <model_id>Hisense H73</model_id>
-    <market_name>Hisense Infinity H72 Pro</market_name>
+    <market_name>Hisense H73</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>14035</id>
@@ -118563,10 +118563,10 @@
   <device>
     <id>14821</id>
     <model_id>IRA_T1021</model_id>
-    <market_name>IRA (explore more) Wishtel Pvt Ltd</market_name>
+    <market_name>IRA (explore more) IRA_EXPLORE_MORE</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>14822</id>
@@ -126107,10 +126107,10 @@
   <device>
     <id>15764</id>
     <model_id>Joybee</model_id>
-    <market_name>KTCtv Joybee</market_name>
+    <market_name>BenQ Joybee</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>15765</id>
@@ -185003,10 +185003,10 @@
   <device>
     <id>23126</id>
     <model_id>Note56 Lite</model_id>
-    <market_name>Doogee Note56 Lite</market_name>
+    <market_name>Anyreal Note56 Lite</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>23127</id>
@@ -185035,10 +185035,10 @@
   <device>
     <id>23130</id>
     <model_id>Note56 X Lite</model_id>
-    <market_name>Doogee Note56 X</market_name>
+    <market_name>Anyreal Note56 X Lite</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>23131</id>
@@ -185059,10 +185059,10 @@
   <device>
     <id>23133</id>
     <model_id>Note59 Pro</model_id>
-    <market_name>Doogee Note59 Pro</market_name>
+    <market_name>Anyreal Note59 Pro</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>23134</id>
@@ -194403,10 +194403,10 @@
   <device>
     <id>24301</id>
     <model_id>PA2455</model_id>
-    <market_name>vivo Pad3</market_name>
+    <market_name>vivo PA2535</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>24302</id>
@@ -194427,10 +194427,10 @@
   <device>
     <id>24304</id>
     <model_id>PA2535</model_id>
-    <market_name>vivo Pad5e</market_name>
+    <market_name>vivo PA2535</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>24305</id>
@@ -198731,10 +198731,10 @@
   <device>
     <id>24842</id>
     <model_id>PLY110</model_id>
-    <market_name>OnePlus Turbo 6V</market_name>
+    <market_name>OnePlus PLY110</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>24843</id>
@@ -203227,10 +203227,10 @@
   <device>
     <id>25404</id>
     <model_id>PYC110</model_id>
-    <market_name>Oppo A7 Pro Max 5G</market_name>
+    <market_name>Oppo PYC110</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>25405</id>
@@ -203251,10 +203251,10 @@
   <device>
     <id>25407</id>
     <model_id>PYS110</model_id>
-    <market_name>OnePlus 一加 Turbo 6X</market_name>
+    <market_name>OnePlus PYS110</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>25408</id>
@@ -203331,10 +203331,10 @@
   <device>
     <id>25417</id>
     <model_id>Pad 13</model_id>
-    <market_name>Hotwav Pad_13</market_name>
+    <market_name>Hotwav Pad13</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>25418</id>
@@ -219371,10 +219371,10 @@
   <device>
     <id>27422</id>
     <model_id>RMX5399</model_id>
-    <market_name>realme C100i</market_name>
+    <market_name>realme C01</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>27423</id>
@@ -223299,10 +223299,10 @@
   <device>
     <id>27913</id>
     <model_id>S300</model_id>
-    <market_name>Ipro S300</market_name>
+    <market_name>Doogee S300</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>27914</id>
@@ -238787,10 +238787,10 @@
   <device>
     <id>29849</id>
     <model_id>SM-E085F</model_id>
-    <market_name>Samsung Galaxy A08</market_name>
+    <market_name>Samsung Galaxy F08</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>29850</id>
@@ -245483,10 +245483,10 @@
   <device>
     <id>30686</id>
     <model_id>SM-M085F</model_id>
-    <market_name>Samsung Galaxy A08</market_name>
+    <market_name>Samsung Galaxy M08</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>30687</id>
@@ -265139,10 +265139,10 @@
   <device>
     <id>33143</id>
     <model_id>T12</model_id>
-    <market_name>G-Tab Tablet</market_name>
+    <market_name>Clover T12</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>33144</id>
@@ -266627,10 +266627,10 @@
   <device>
     <id>33329</id>
     <model_id>T451A</model_id>
-    <market_name>TCL Alcatel A31 Pro</market_name>
+    <market_name>TCT (Alcatel) Alcatel 3</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>33330</id>
@@ -283403,10 +283403,10 @@
   <device>
     <id>35426</id>
     <model_id>Tab A9+</model_id>
-    <market_name>Doogee Tab A9+</market_name>
+    <market_name>Anyreal T2C-AR</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>35427</id>
@@ -287243,10 +287243,10 @@
   <device>
     <id>35906</id>
     <model_id>U11 Kid</model_id>
-    <market_name>Doogee U11 Kid</market_name>
+    <market_name>Anyreal T2Kid-AR</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>35907</id>
@@ -319603,10 +319603,10 @@
   <device>
     <id>39951</id>
     <model_id>ZIDS_701</model_id>
-    <market_name>TOPELOTEK ZIDS_701</market_name>
+    <market_name>TOPELOTEK ZIDS701_A</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>39952</id>
@@ -328915,10 +328915,10 @@
   <device>
     <id>41115</id>
     <model_id>iPA2537</model_id>
-    <market_name>iQOO Pad5e</market_name>
+    <market_name>iQOO iPA2537</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>41116</id>
@@ -335595,10 +335595,10 @@
   <device>
     <id>41950</id>
     <model_id>motorola razr ultra 2025</model_id>
-    <market_name>motorola razr ultra 2025</market_name>
+    <market_name>motorola razr 60 ultra</market_name>
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
-    <updated_at>2026-08-25T00:00:00Z</updated_at>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
   <device>
     <id>41951</id>
@@ -339383,5 +339383,2997 @@
     <platform>Android</platform>
     <camera_position_portrait>TOP</camera_position_portrait>
     <updated_at>2026-08-26T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42424</id>
+    <model_id>iPhone19,2</model_id>
+    <market_name>iPhone 18 Pro</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42425</id>
+    <model_id>iPhone19,3</model_id>
+    <market_name>iPhone 18 Pro Max (US)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42426</id>
+    <model_id>iPhone19,4</model_id>
+    <market_name>iPhone Duo</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42427</id>
+    <model_id>iPhone19,7</model_id>
+    <market_name>iPhone 18 Pro Max (Global)</market_name>
+    <platform>iOS</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42428</id>
+    <model_id>101HH1C</model_id>
+    <market_name>KENSHI 101HH1C</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42429</id>
+    <model_id>25128PNA1C</model_id>
+    <market_name>Xiaomi 17 Ultra</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42430</id>
+    <model_id>26012RN62A</model_id>
+    <market_name>REDMI Note 17</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42431</id>
+    <model_id>26012RN62L</model_id>
+    <market_name>REDMI Note 17</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42432</id>
+    <model_id>26012RN62Y</model_id>
+    <market_name>REDMI Note 17</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42433</id>
+    <model_id>26020RNB4A</model_id>
+    <market_name>REDMI A7</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42434</id>
+    <model_id>26020RNB4L</model_id>
+    <market_name>REDMI A7</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42435</id>
+    <model_id>26062PC92I</model_id>
+    <market_name>POCO M8x 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42436</id>
+    <model_id>26062RN92I</model_id>
+    <market_name>REDMI 17 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42437</id>
+    <model_id>26077PC53G</model_id>
+    <market_name>POCO F9 Ultra</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42438</id>
+    <model_id>2607APCA5G</model_id>
+    <market_name>POCO F9 Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42439</id>
+    <model_id>2607DPC18G</model_id>
+    <market_name>POCO X8</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42440</id>
+    <model_id>2607DPC18I</model_id>
+    <market_name>POCO X8</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42441</id>
+    <model_id>2607DRA18C</model_id>
+    <market_name>REDMI Note 17 Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42442</id>
+    <model_id>2607DRA18G</model_id>
+    <market_name>REDMI Note 17 Pro 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42443</id>
+    <model_id>2607DRA18I</model_id>
+    <market_name>REDMI Note 17 Pro 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42444</id>
+    <model_id>2607DRA18T</model_id>
+    <market_name>REDMI Note 17 Pro 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42445</id>
+    <model_id>2607FRNEAG</model_id>
+    <market_name>REDMI 17C 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42446</id>
+    <model_id>26081RA18G</model_id>
+    <market_name>REDMI Note 17 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42447</id>
+    <model_id>26081RA18L</model_id>
+    <market_name>REDMI Note 17 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42448</id>
+    <model_id>2608BPX34C</model_id>
+    <market_name>Xiaomi 18 Fold</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42449</id>
+    <model_id>2609FRA74G</model_id>
+    <market_name>REDMI Note 17 Pro Max 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42450</id>
+    <model_id>2KTV-6SH</model_id>
+    <market_name>Panasonic 2KTV-6SH</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42451</id>
+    <model_id>3576</model_id>
+    <market_name>Spaisen SP_E800302</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42452</id>
+    <model_id>4KTV-6SU</model_id>
+    <market_name>Panasonic 4KTV-6SU</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42453</id>
+    <model_id>4KTV-6SUF</model_id>
+    <market_name>Panasonic 4KTV-6SUF</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42454</id>
+    <model_id>9426X</model_id>
+    <market_name>TCL TAB A1 NXTPAPER</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42455</id>
+    <model_id>A1095Z-5G</model_id>
+    <market_name>CENAVA A1095Z-5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42456</id>
+    <model_id>A18 Pro</model_id>
+    <market_name>Hotwav A18 Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42457</id>
+    <model_id>A18ST</model_id>
+    <market_name>CENAVA A18ST</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42458</id>
+    <model_id>A603SH</model_id>
+    <market_name>Sharp AQUOS wish6</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42459</id>
+    <model_id>A604SH</model_id>
+    <market_name>Sharp AQUOS wish6</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42460</id>
+    <model_id>A88ST</model_id>
+    <market_name>CENAVA A88ST</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42461</id>
+    <model_id>ACP75P</model_id>
+    <market_name>ACERPURE INDIA CE PRIVATE LIMITED</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42462</id>
+    <model_id>AD-C1</model_id>
+    <market_name>Crosscall AD-C1</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42463</id>
+    <model_id>AD-C2</model_id>
+    <market_name>Crosscall AD-C2</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42464</id>
+    <model_id>AD-C3</model_id>
+    <market_name>Crosscall AD-C3</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42465</id>
+    <model_id>ADS75P</model_id>
+    <market_name>Admiral Overseas Corporation ADMIRAL AMERICA CORPORATION PRIVATE LIMITED</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42466</id>
+    <model_id>ADZ75P</model_id>
+    <market_name>ACERPURE INDIA CE PRIVATE LIMITED</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42467</id>
+    <model_id>AF13Air_US</model_id>
+    <market_name>RebotAi AF13Air_US</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42468</id>
+    <model_id>AF8_EEA</model_id>
+    <market_name>RebotAi AF8_EEA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42469</id>
+    <model_id>AF8_ROW</model_id>
+    <market_name>RebotAi AF8_ROW</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42470</id>
+    <model_id>AIGO_Pad_HY800</model_id>
+    <market_name>AIGO_Pad_HY800_US</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42471</id>
+    <model_id>AIXT2604</model_id>
+    <market_name>AIPLUS_PulseTabLite</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42472</id>
+    <model_id>ARCHOS T110 FHD3 4G ULTRA</model_id>
+    <market_name>Archos SPACT110FHD34GULTRA_EEA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42473</id>
+    <model_id>ARMOR 40A</model_id>
+    <market_name>KIWISUMI ARMOR_40A_RU</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42474</id>
+    <model_id>ASTECH_S21</model_id>
+    <market_name>ASTECH_S21</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42475</id>
+    <model_id>ASUS Googlebook 14</model_id>
+    <market_name>ASUS Googlebook 14</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42476</id>
+    <model_id>AUTOID PAD Air-5G-P</model_id>
+    <market_name>Seuic AUTOID PAD Air-5G-P</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42477</id>
+    <model_id>Ace2</model_id>
+    <market_name>Intex Ace2</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42478</id>
+    <model_id>Acer Googlebook 14</model_id>
+    <market_name>Acer Googlebook 14</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42479</id>
+    <model_id>Android M11</model_id>
+    <market_name>inefi Android M11</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42480</id>
+    <model_id>Astral</model_id>
+    <market_name>Logicom Astral</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42481</id>
+    <model_id>At_Home</model_id>
+    <market_name>At_Home_Series CTIHOMEUH50</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42482</id>
+    <model_id>Azimut_4_lite</model_id>
+    <market_name>Mediacom M-SP11AZ46</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42483</id>
+    <model_id>B22_C</model_id>
+    <market_name>Biegedy B22_C</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42484</id>
+    <model_id>B25_E</model_id>
+    <market_name>Biegedy B25_E</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42485</id>
+    <model_id>BF00A</model_id>
+    <market_name>BLUEFOX Aura_A1</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42486</id>
+    <model_id>BH1002G</model_id>
+    <market_name>HEROFUN BH1002G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42487</id>
+    <model_id>BPad T11</model_id>
+    <market_name>BNCF BPad_T11</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42488</id>
+    <model_id>BPad X1</model_id>
+    <market_name>BNCF BPad X1</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42489</id>
+    <model_id>BSN-NX1</model_id>
+    <market_name>HONOR X9e Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42490</id>
+    <model_id>BSN-NX1M</model_id>
+    <market_name>HONOR Magic9 Lite+</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42491</id>
+    <model_id>BSN-NX3</model_id>
+    <market_name>HONOR Magic9 Lite+</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42492</id>
+    <model_id>BT-A800</model_id>
+    <market_name>KEYENCE BT-A800</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42493</id>
+    <model_id>BT-A800M</model_id>
+    <market_name>KEYENCE BT-A800M</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42494</id>
+    <model_id>BV9300Pro Plus</model_id>
+    <market_name>Blackview BV9300Pro Plus</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42495</id>
+    <model_id>BYD300F_G</model_id>
+    <market_name>BYD</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42496</id>
+    <model_id>BYD300F_G_P</model_id>
+    <market_name>BYD</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42497</id>
+    <model_id>BYD300F_VCP_G</model_id>
+    <market_name>BYD</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42498</id>
+    <model_id>BYD300F_VCP_G_P</model_id>
+    <market_name>BYD</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42499</id>
+    <model_id>Black S3</model_id>
+    <market_name>Kalley Black S3</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42500</id>
+    <model_id>Black S4</model_id>
+    <market_name>Kalley Black_S4</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42501</id>
+    <model_id>Blade20 Plus</model_id>
+    <market_name>Doogee Blade20 Plus</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42502</id>
+    <model_id>Blade20 X</model_id>
+    <market_name>Doogee Blade20 X</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42503</id>
+    <model_id>Blade_6_Pro</model_id>
+    <market_name>Hammer Blade_6_Pro_EEA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42504</id>
+    <model_id>C17 SE</model_id>
+    <market_name>FOSSiBOT C17 SE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42505</id>
+    <model_id>C20 Plus</model_id>
+    <market_name>LANDI C20PlusN00</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42506</id>
+    <model_id>COMEK Tab K10</model_id>
+    <market_name>MYCOM COMEK_Tab_K</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42507</id>
+    <model_id>COMEK Tab K20</model_id>
+    <market_name>MYCOM COMEK_Tab_K2</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42508</id>
+    <model_id>CP31M-4T</model_id>
+    <market_name>ST(everup) CP31M-4T</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42509</id>
+    <model_id>CPH2829</model_id>
+    <market_name>Oppo F35 Pro 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42510</id>
+    <model_id>CPH2931</model_id>
+    <market_name>Oppo A7 Pro 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42511</id>
+    <model_id>CPH2993</model_id>
+    <market_name>OnePlus N6 Lite</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42512</id>
+    <model_id>CPH3007</model_id>
+    <market_name>Oppo K14 Lite</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42513</id>
+    <model_id>CPH3009</model_id>
+    <market_name>Oppo K14 Plus 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42514</id>
+    <model_id>CTP100</model_id>
+    <market_name>Casper PAD_D10</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42515</id>
+    <model_id>CTS05</model_id>
+    <market_name>Disney CTS05</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42516</id>
+    <model_id>CW10</model_id>
+    <market_name>CATCHTABLE CW10</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42517</id>
+    <model_id>CX10</model_id>
+    <market_name>CILICO CX10</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42518</id>
+    <model_id>ClassyS26Ultra4G</model_id>
+    <market_name>CORN ClassyS26Ultra4G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42519</id>
+    <model_id>Comtrend-S3A</model_id>
+    <market_name>Digi Comtrend-S3A</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42520</id>
+    <model_id>Construction_3_5G</model_id>
+    <market_name>Hammer Construction_3_5G_EEA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42521</id>
+    <model_id>Core-Z5P</model_id>
+    <market_name>Crosscall Core-Z5P</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42522</id>
+    <model_id>D117</model_id>
+    <market_name>MEIZE D117_US</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42523</id>
+    <model_id>D126_PRO</model_id>
+    <market_name>MEIZE D126_PRO</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42524</id>
+    <model_id>D126_PRO_EEA</model_id>
+    <market_name>MEIZE D126_PRO_EEA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42525</id>
+    <model_id>D126_US</model_id>
+    <market_name>MEIZE D126_US</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42526</id>
+    <model_id>D2151</model_id>
+    <market_name>Nebula X1 Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42527</id>
+    <model_id>D3_E</model_id>
+    <market_name>DMOAO D3_E</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42528</id>
+    <model_id>DAE65P</model_id>
+    <market_name>Daewoo THINK EBIKEGO PRIVATE LIMITED</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42529</id>
+    <model_id>DE-T919</model_id>
+    <market_name>Ekron DE-T919</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42530</id>
+    <model_id>DEVOPS_RK3576</model_id>
+    <market_name>DEVOPS-RK3576</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42531</id>
+    <model_id>DL1061</model_id>
+    <market_name>DigiLand DL1061</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42532</id>
+    <model_id>DREAME SMART 4KTV EU</model_id>
+    <market_name>DREAME SMART 4KTV EU</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42533</id>
+    <model_id>DREAME SMART 4KTV SA</model_id>
+    <market_name>DREAME SMART 4KTV SA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42534</id>
+    <model_id>DS95</model_id>
+    <market_name>DSIC Mobilebase DS95</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42535</id>
+    <model_id>E11_E</model_id>
+    <market_name>DEERTiME E11_E</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42536</id>
+    <model_id>E15_E</model_id>
+    <market_name>DEERTiME E15_E</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42537</id>
+    <model_id>E3_Series</model_id>
+    <market_name>MAXHUB E3_Series</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42538</id>
+    <model_id>E940-3044-00</model_id>
+    <market_name>Gigaset GX30</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42539</id>
+    <model_id>E940-3044-01</model_id>
+    <market_name>Gigaset GX30 EP</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42540</id>
+    <model_id>E940-3045-00</model_id>
+    <market_name>Gigaset GX50</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42541</id>
+    <model_id>E940-3045-01</model_id>
+    <market_name>Gigaset GX50 EP</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42542</id>
+    <model_id>ECLIPSE PLUS TAB 10</model_id>
+    <market_name>Stylo ECLIPSE_PLUS_TAB_10</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42543</id>
+    <model_id>EE940-3043-00</model_id>
+    <market_name>Gigaset GS6 PRO</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42544</id>
+    <model_id>EID-1001A</model_id>
+    <market_name>Emerson EID_1001A</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42545</id>
+    <model_id>EPIC Vision</model_id>
+    <market_name>SEGO EPIC_Vision</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42546</id>
+    <model_id>EPIC_G_12</model_id>
+    <market_name>MICRODIGIT EPIC_G_12</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42547</id>
+    <model_id>EPICa</model_id>
+    <market_name>SEGO EPICa</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42548</id>
+    <model_id>ETEL_P69</model_id>
+    <market_name>ETELPREMIUM ETEL_P69</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42549</id>
+    <model_id>EWT56_STYLO VALOR</model_id>
+    <market_name>Stylo EWT56_STYLO_VALOR</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42550</id>
+    <model_id>F118</model_id>
+    <market_name>FOSSiBOT F118_EEA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42551</id>
+    <model_id>FLOW 12</model_id>
+    <market_name>Kruger_Matz FLOW_12_EEA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42552</id>
+    <model_id>FUTURE_18_PRO</model_id>
+    <market_name>Lesia FUTURE_18_PRO</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42553</id>
+    <model_id>GT350</model_id>
+    <market_name>Xnano GT350</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42554</id>
+    <model_id>GigaX F19</model_id>
+    <market_name>GDL(BD) GigaX_F19</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42555</id>
+    <model_id>Gtel_Delta_18</model_id>
+    <market_name>Gtel_Delta_18</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42556</id>
+    <model_id>H-H101_EEA</model_id>
+    <market_name>Hosoton H-H101_EEA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42557</id>
+    <model_id>HDBC</model_id>
+    <market_name>TheNudge HyundaiIT_Smartboard_Ci</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42558</id>
+    <model_id>HDBN</model_id>
+    <market_name>TheNudge HyundaiIT_Smartboard_Ai</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42559</id>
+    <model_id>HP Googlebook 14</model_id>
+    <market_name>HP Googlebook 14</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42560</id>
+    <model_id>HPA-1319</model_id>
+    <market_name>Homeplustv HPA-1319</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42561</id>
+    <model_id>HSD-M03F</model_id>
+    <market_name>OFD(Display) HSD-M03F</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42562</id>
+    <model_id>HSG1507</model_id>
+    <market_name>HannSpree HSG1507</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42563</id>
+    <model_id>HT738-01</model_id>
+    <market_name>HWD HT738-01</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42564</id>
+    <model_id>Heze</model_id>
+    <market_name>Ceibal Heze</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42565</id>
+    <model_id>Hisense E36</model_id>
+    <market_name>Hisense E36</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42566</id>
+    <model_id>Hisense E73</model_id>
+    <market_name>Hisense E73</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42567</id>
+    <model_id>Hisense Enigma Lite</model_id>
+    <market_name>Hisense U54</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42568</id>
+    <model_id>Hisense Enigma Plus</model_id>
+    <market_name>Hisense Enigma Plus</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42569</id>
+    <model_id>Hisense Hisense Engima Plus</model_id>
+    <market_name>Hisense Enigma Plus</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42570</id>
+    <model_id>Hisense Hisense Enigma Plus</model_id>
+    <market_name>Hisense Enigma Plus</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42571</id>
+    <model_id>Hisense M90 Pro</model_id>
+    <market_name>Hisense F72 Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42572</id>
+    <model_id>Hisense U55</model_id>
+    <market_name>Hisense HLTE243E</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42573</id>
+    <model_id>Hisense Y63</model_id>
+    <market_name>Hisense Y63</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42574</id>
+    <model_id>I26K01</model_id>
+    <market_name>iMin Penguin 1 mini</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42575</id>
+    <model_id>I26K02</model_id>
+    <market_name>iMin Penguin1</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42576</id>
+    <model_id>I26K03</model_id>
+    <market_name>iMin Penguin 1 Pro mini</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42577</id>
+    <model_id>I26K04</model_id>
+    <market_name>iMin Penguin1Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42578</id>
+    <model_id>IM-H031N</model_id>
+    <market_name>iMuz IM-H031N</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42579</id>
+    <model_id>IM-S881</model_id>
+    <market_name>iMuz IM-S881</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42580</id>
+    <model_id>IRA_T808M_Wishtel</model_id>
+    <market_name>IRA (explore more) IRA_T808M_Wishtel</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42581</id>
+    <model_id>IS-IFSeries</model_id>
+    <market_name>STUDYNLEARN Interactive_Flat_Panel_SNL</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42582</id>
+    <model_id>Infinix X1102D</model_id>
+    <market_name>Infinix XPAD 30</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42583</id>
+    <model_id>J2608</model_id>
+    <market_name>JOVI Y600 Pro 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42584</id>
+    <model_id>JT1</model_id>
+    <market_name>JOACELM_JT1</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42585</id>
+    <model_id>JTOUCH_26_ADVANCED_SERIES</model_id>
+    <market_name>Infocus JTOUCH_26_ADVANCED_SERIES</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42586</id>
+    <model_id>JTOUCH_26_ESSENTIAL_SERIES</model_id>
+    <market_name>Infocus JTOUCH_26_ESSENTIAL_SERIES</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42587</id>
+    <model_id>K15A</model_id>
+    <market_name>TOPELOTEK K15A</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42588</id>
+    <model_id>K20 Pro</model_id>
+    <market_name>LANDI K20ProN00</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42589</id>
+    <model_id>K610AO</model_id>
+    <market_name>JMGO N1S SE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42590</id>
+    <model_id>K931AO</model_id>
+    <market_name>JMGO N3 Ultimate</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42591</id>
+    <model_id>KC-S704</model_id>
+    <market_name>Kyocera DuraForce EX2</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42592</id>
+    <model_id>KG4101</model_id>
+    <market_name>Kbro KG4101</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42593</id>
+    <model_id>KIDS707A-708</model_id>
+    <market_name>TOPELOTEK KIDS707A_708A</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42594</id>
+    <model_id>KSTB2500</model_id>
+    <market_name>KPP(KR) Swan</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42595</id>
+    <model_id>KSTB6200</model_id>
+    <market_name>NCTC KSTB6200</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42596</id>
+    <model_id>KSTB7268</model_id>
+    <market_name>O2 (O2 Slovakia) KPP STB</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42597</id>
+    <model_id>KSTB8000</model_id>
+    <market_name>Korea Telecom KSTB8000</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42598</id>
+    <model_id>L67 Ultra</model_id>
+    <market_name>LOGIC L67 Ultra</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42599</id>
+    <model_id>LINK 5</model_id>
+    <market_name>Blackview LINK 5</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42600</id>
+    <model_id>Leica Cine Compact 1</model_id>
+    <market_name>Leica Cine Compact 1</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42601</id>
+    <model_id>Lenovo Googlebook 15</model_id>
+    <market_name>Lenovo Googlebook 15</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42602</id>
+    <model_id>Logic L67 PRO MAX</model_id>
+    <market_name>Logic L67 PRO MAX</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42603</id>
+    <model_id>LoopPhone</model_id>
+    <market_name>loopDL LoopPhone</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42604</id>
+    <model_id>M10_C13</model_id>
+    <market_name>Pritom M10_C13</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42605</id>
+    <model_id>M18ProMax</model_id>
+    <market_name>M-Horse M18ProMax</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42606</id>
+    <model_id>M367FC</model_id>
+    <market_name>Xiaomi Pad 9 Pro Max</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>RIGHT</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42607</id>
+    <model_id>M80X</model_id>
+    <market_name>ONERugged M80X</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42608</id>
+    <model_id>M80XE</model_id>
+    <market_name>ONERugged M80XE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42609</id>
+    <model_id>M8781A</model_id>
+    <market_name>H3Cmagic M8781A</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42610</id>
+    <model_id>MES-B4</model_id>
+    <market_name>Meswao MES-B4</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42611</id>
+    <model_id>MF52</model_id>
+    <market_name>Point Mobile MF52</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42612</id>
+    <model_id>MLD-LX2</model_id>
+    <market_name>HONOR X5e s</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42613</id>
+    <model_id>MLD-LX3</model_id>
+    <market_name>Honor Melody</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42614</id>
+    <model_id>MOBOE1</model_id>
+    <market_name>MOBODO MOBO E1</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42615</id>
+    <model_id>MPT-1012</model_id>
+    <market_name>Maspower K8MPT-1012</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42616</id>
+    <model_id>MT-A10</model_id>
+    <market_name>Mpgio MT-A10</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42617</id>
+    <model_id>MZYIA</model_id>
+    <market_name>ETTO</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42618</id>
+    <model_id>M_Q59Pro</model_id>
+    <market_name>Mengdash M_Q59Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42619</id>
+    <model_id>MegaPad Air</model_id>
+    <market_name>Cubot MegaPad Air</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42620</id>
+    <model_id>Mistral</model_id>
+    <market_name>Logicom Mistral</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42621</id>
+    <model_id>N6801X</model_id>
+    <market_name>Nuu B50</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42622</id>
+    <model_id>N962</model_id>
+    <market_name>MiTAC hera_pro_se</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42623</id>
+    <model_id>NOTE 25 5G</model_id>
+    <market_name>Vgo Tel NOTE_25_5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42624</id>
+    <model_id>NXLPAD1</model_id>
+    <market_name>Nexal Pad</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42625</id>
+    <model_id>Neo_16</model_id>
+    <market_name>SparX Neo_16</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42626</id>
+    <model_id>NitroX</model_id>
+    <market_name>PROTON NitroX</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42627</id>
+    <model_id>Note 57</model_id>
+    <market_name>Doogee Note 57</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42628</id>
+    <model_id>Note57 Lite</model_id>
+    <market_name>Doogee Note57 Lite</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42629</id>
+    <model_id>Note60</model_id>
+    <market_name>Anyreal Note60</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42630</id>
+    <model_id>ONE_1C</model_id>
+    <market_name>Invens ONE_1C</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42631</id>
+    <model_id>ONI75P</model_id>
+    <market_name>ONIDA MIRC Electronics Ltd.</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42632</id>
+    <model_id>ONX75P</model_id>
+    <market_name>ONIDA MIRC Electronics Ltd.</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42633</id>
+    <model_id>ORION E2</model_id>
+    <market_name>Logicom ORION E2</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42634</id>
+    <model_id>Olternix_A11</model_id>
+    <market_name>Olternix_A11</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42635</id>
+    <model_id>OneScreen_Android_OPS_2</model_id>
+    <market_name>OneScreen_Android_OPS_2</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42636</id>
+    <model_id>Onvo Smart TV</model_id>
+    <market_name>ONVO</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42637</id>
+    <model_id>P10_R</model_id>
+    <market_name>SVITOO P10R_EEA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42638</id>
+    <model_id>P35_ROW</model_id>
+    <market_name>Teclast P35_Y</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42639</id>
+    <model_id>P35_Y_ROW</model_id>
+    <market_name>Teclast P35_Y</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42640</id>
+    <model_id>P50_B_US</model_id>
+    <market_name>Teclast P50_B_US</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42641</id>
+    <model_id>P65PR</model_id>
+    <market_name>PCD LLC P65PR</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42642</id>
+    <model_id>PILOT 8</model_id>
+    <market_name>OSCAL PILOT 8</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42643</id>
+    <model_id>PRO_MAX_16</model_id>
+    <market_name>AngelTech PRO_MAX_16</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42644</id>
+    <model_id>PYE110</model_id>
+    <market_name>Oppo A7 Pro 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42645</id>
+    <model_id>PYE130</model_id>
+    <market_name>Oppo A7 Pro 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42646</id>
+    <model_id>Pad 15 Pro</model_id>
+    <market_name>Hotwav Pad 15 Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42647</id>
+    <model_id>Pad 17 Pro</model_id>
+    <market_name>Hotwav Pad 17 Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42648</id>
+    <model_id>Pad 31 Ultra</model_id>
+    <market_name>LUO(A) Pad 31 Ultra</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42649</id>
+    <model_id>Pad Neo</model_id>
+    <market_name>Heco Pad_Neo</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42650</id>
+    <model_id>Pad_SE</model_id>
+    <market_name>Thomson Pad_SE_EEA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42651</id>
+    <model_id>Philips Google TV TC1</model_id>
+    <market_name>Philips 7231 series</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42652</id>
+    <model_id>Power V1</model_id>
+    <market_name>Invens Power_V1_ROW</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42653</id>
+    <model_id>Prime Pro 5G</model_id>
+    <market_name>ECONET Prime Pro 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42654</id>
+    <model_id>Primebook Duo Max</model_id>
+    <market_name>Primebook PB1380</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42655</id>
+    <model_id>Q11_Pro</model_id>
+    <market_name>PEICHENG Q11_Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42656</id>
+    <model_id>Q5S</model_id>
+    <market_name>Hisense Q5S</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42657</id>
+    <model_id>R10Pro</model_id>
+    <market_name>DigiLand M10AA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42658</id>
+    <model_id>R3GS</model_id>
+    <market_name>Sharp R3GS</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42659</id>
+    <model_id>R500_E</model_id>
+    <market_name>JUEDUR R500_E</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42660</id>
+    <model_id>RAVOZ_A7_PRO</model_id>
+    <market_name>RAVOZ_A7_PRO</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42661</id>
+    <model_id>REC75P</model_id>
+    <market_name>realmeTechLife</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42662</id>
+    <model_id>RGD1_ROW</model_id>
+    <market_name>Teclast RGD1_EEA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42663</id>
+    <model_id>RMX5125</model_id>
+    <market_name>realme P4s 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42664</id>
+    <model_id>RMX5398</model_id>
+    <market_name>realme P4s Lite</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42665</id>
+    <model_id>RS20</model_id>
+    <market_name>Cipherlab RS20</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42666</id>
+    <model_id>RS2503</model_id>
+    <market_name>RUIO ZIP</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42667</id>
+    <model_id>RS2613</model_id>
+    <market_name>Ruio Smart One</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42668</id>
+    <model_id>RSE_GTRONX</model_id>
+    <market_name>GTRONX RSE_GTRONX</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42669</id>
+    <model_id>RT1308B</model_id>
+    <market_name>MapleSystems RT1308B</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42670</id>
+    <model_id>RT710</model_id>
+    <market_name>Honeywell RT710</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42671</id>
+    <model_id>RTC_M102</model_id>
+    <market_name>DARVEEN RTC_M102</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42672</id>
+    <model_id>S-T6128HD</model_id>
+    <market_name>SENSE T6128HD_EEA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42673</id>
+    <model_id>S10_E</model_id>
+    <market_name>SUAAT S10_E</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42674</id>
+    <model_id>S17Pro_Sub</model_id>
+    <market_name>Techview S17Pro_Sub</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42675</id>
+    <model_id>S200 X Pro</model_id>
+    <market_name>Doogee S200 X Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42676</id>
+    <model_id>S7221</model_id>
+    <market_name>Philips S7221</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42677</id>
+    <model_id>SC-790KT</model_id>
+    <market_name>SUPERSONIC SC_790KT</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42678</id>
+    <model_id>SH-M36</model_id>
+    <market_name>Sharp AQUOS wish6</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42679</id>
+    <model_id>SL-75SLEDU168U</model_id>
+    <market_name>SOFLOGIC Interactive_Flat_Panel_SL</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42680</id>
+    <model_id>SM-A185F</model_id>
+    <market_name>Samsung Galaxy A18</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42681</id>
+    <model_id>SM-A185G</model_id>
+    <market_name>Samsung Galaxy A18</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42682</id>
+    <model_id>SM-A185N</model_id>
+    <market_name>Samsung Galaxy A18</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42683</id>
+    <model_id>SM-A376N</model_id>
+    <market_name>Samsung Galaxy A37 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42684</id>
+    <model_id>SN512C</model_id>
+    <market_name>Cricket Icon® Pro - 2026</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42685</id>
+    <model_id>SN512CCM</model_id>
+    <market_name>ConsumerCellular SpeakEasy Smart</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42686</id>
+    <model_id>SO-52G</model_id>
+    <market_name>Sony Xperia 10 VIII</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42687</id>
+    <model_id>SPECTRA A2</model_id>
+    <market_name>spectramobile SPECTRA_A2</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42688</id>
+    <model_id>SPECTRA PLAY</model_id>
+    <market_name>spectramobile SPECTRA PLAY</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42689</id>
+    <model_id>SPPL 2K GOOGLE TV</model_id>
+    <market_name>Thomson SPPL</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42690</id>
+    <model_id>SPPL 4K 65P</model_id>
+    <market_name>Thomson SPPL</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42691</id>
+    <model_id>SPPL 4K Google TV</model_id>
+    <market_name>Thomson SPPL</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42692</id>
+    <model_id>SPPL4K</model_id>
+    <market_name>Thomson SPPL</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42693</id>
+    <model_id>STAB7</model_id>
+    <market_name>VORCOM STAB7</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42694</id>
+    <model_id>STYLO_ELEVATE</model_id>
+    <market_name>STYLO_ELEVATE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42695</id>
+    <model_id>ST_55_CONNECT_SMARTMOVE</model_id>
+    <market_name>Speechi ST_55_CONNECT_SMARTMOVE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42696</id>
+    <model_id>SWTV-24LA-FHD</model_id>
+    <market_name>SWTV-24LA-FHD</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42697</id>
+    <model_id>SWTV-25HK</model_id>
+    <market_name>SWTV-25HK</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42698</id>
+    <model_id>SWTV-25NA-4K</model_id>
+    <market_name>SWTV-25NA-4K</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42699</id>
+    <model_id>SWTV-25SA-4K</model_id>
+    <market_name>SWTV-25SA-4K</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42700</id>
+    <model_id>SWTV-26AE-2KA5</model_id>
+    <market_name>SWTV-26AE-2KA5</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42701</id>
+    <model_id>SWTV-26AE-4K NF</model_id>
+    <market_name>SWTV-26AE-4K NF</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42702</id>
+    <model_id>SWTV-26HK-4K</model_id>
+    <market_name>SWTV-26HK-4K</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42703</id>
+    <model_id>SWTV-26LA-4K</model_id>
+    <market_name>SWTV-26LA-4K</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42704</id>
+    <model_id>SWTV-26NA-2KA5</model_id>
+    <market_name>SWTV-26NA-2KA5</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42705</id>
+    <model_id>SWTV-26NA-4K</model_id>
+    <market_name>SWTV-26NA-4K</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42706</id>
+    <model_id>SWTV-26SA-2KA5</model_id>
+    <market_name>SWTV-26SA-2KA5</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42707</id>
+    <model_id>SWTV-26SA-4K</model_id>
+    <market_name>SWTV-26SA-4K</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42708</id>
+    <model_id>Shinelink_136COB</model_id>
+    <market_name>RGBshine Shinelink_136COB</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42709</id>
+    <model_id>Smart 20 GO</model_id>
+    <market_name>SEGO Smart 20 GO</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42710</id>
+    <model_id>Smart One</model_id>
+    <market_name>Ruio Smart One</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42711</id>
+    <model_id>Sofia5</model_id>
+    <market_name>Partner_Tech Sofia5</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42712</id>
+    <model_id>Sonic Lite</model_id>
+    <market_name>Digit Sonic Lite</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42713</id>
+    <model_id>Spectra_TAB</model_id>
+    <market_name>spectramobile Spectra_TAB</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42714</id>
+    <model_id>T2072</model_id>
+    <market_name>Positivo T2072</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42715</id>
+    <model_id>T852K</model_id>
+    <market_name>TCL P80 Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42716</id>
+    <model_id>T852P</model_id>
+    <market_name>TCL P80 Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42717</id>
+    <model_id>T853K</model_id>
+    <market_name>TCL P80</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42718</id>
+    <model_id>T853P</model_id>
+    <market_name>TCL P80</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42719</id>
+    <model_id>T91A</model_id>
+    <market_name>JMGO O2S Ultra</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42720</id>
+    <model_id>T952K</model_id>
+    <market_name>TCL P80 Ultra</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42721</id>
+    <model_id>T952P</model_id>
+    <market_name>TCL P80 Ultra</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42722</id>
+    <model_id>TA-05</model_id>
+    <market_name>Maxzz TA-05</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42723</id>
+    <model_id>TAB 10 MAX</model_id>
+    <market_name>Pritom M10_A02_EEA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42724</id>
+    <model_id>TAB R7 Pro</model_id>
+    <market_name>Hotwav TAB_R7_Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42725</id>
+    <model_id>TAB30_E</model_id>
+    <market_name>Dghrti TAB30_E</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42726</id>
+    <model_id>TB336ZA</model_id>
+    <market_name>Lenovo Idea Tab / Lenovo Tab K11 Gen 2</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42727</id>
+    <model_id>TB522FU</model_id>
+    <market_name>Lenovo Yoga Tab Plus Gen2</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42728</id>
+    <model_id>TECNO KO2</model_id>
+    <market_name>TECNO POP 20C</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42729</id>
+    <model_id>TELOX_TE850</model_id>
+    <market_name>TELOX TE850</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42730</id>
+    <model_id>TM08F6W74</model_id>
+    <market_name>IRIS_OHYAMA TM08F6W74</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42731</id>
+    <model_id>TR3ER</model_id>
+    <market_name>LG_Electronics TR3ER</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42732</id>
+    <model_id>Teachmint_XC</model_id>
+    <market_name>Teachmint_XC</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42733</id>
+    <model_id>Telefunken 2K SmartTV</model_id>
+    <market_name>Telefunken 2K SmartTV</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42734</id>
+    <model_id>U14</model_id>
+    <market_name>Anyreal U14</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42735</id>
+    <model_id>U8_E</model_id>
+    <market_name>UJJ(SZ) U8_E</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42736</id>
+    <model_id>V Max Play Pro</model_id>
+    <market_name>Doogee V Max Play Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42737</id>
+    <model_id>V10E LTE-464</model_id>
+    <market_name>VALE V10E_464_LTE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42738</id>
+    <model_id>V2559</model_id>
+    <market_name>vivo X Fold6</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42739</id>
+    <model_id>V2571</model_id>
+    <market_name>vivo Y31t 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42740</id>
+    <model_id>V2574</model_id>
+    <market_name>vivo Y31t 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42741</id>
+    <model_id>V2602A</model_id>
+    <market_name>vivo X500 Pro Max</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42742</id>
+    <model_id>V2602DA</model_id>
+    <market_name>vivo X500 Pro Max 卫星通信版</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42743</id>
+    <model_id>V2603A</model_id>
+    <market_name>iQOO Z11S</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42744</id>
+    <model_id>V2606A</model_id>
+    <market_name>iQOO 16</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42745</id>
+    <model_id>V2607</model_id>
+    <market_name>vivo T5 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42746</id>
+    <model_id>V2607A</model_id>
+    <market_name>Vivo Y600</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42747</id>
+    <model_id>V2608A</model_id>
+    <market_name>vivo X500 Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42748</id>
+    <model_id>V2608DA</model_id>
+    <market_name>vivo X500 Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42749</id>
+    <model_id>V2609A</model_id>
+    <market_name>vivo X500</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42750</id>
+    <model_id>V2617A</model_id>
+    <market_name>vivo Y500k</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42751</id>
+    <model_id>V2620A</model_id>
+    <market_name>vivo S60t</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42752</id>
+    <model_id>V2626</model_id>
+    <market_name>Vivo V80 Lite 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42753</id>
+    <model_id>V2640</model_id>
+    <market_name>vivo S2 FE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42754</id>
+    <model_id>V2655</model_id>
+    <market_name>vivo V80 Lite 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42755</id>
+    <model_id>V6 Lite</model_id>
+    <market_name>Morep V6_Lite</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42756</id>
+    <model_id>VILLAON V655L</model_id>
+    <market_name>VILLAON V60</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42757</id>
+    <model_id>VZY SMART TV</model_id>
+    <market_name>DishTV (IN) DISHTV INDIA LTD.</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42758</id>
+    <model_id>Video Soundbox</model_id>
+    <market_name>Orange Video Soundbox</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42759</id>
+    <model_id>W Series</model_id>
+    <market_name>Iactive_IFPD</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42760</id>
+    <model_id>WAFX-PS</model_id>
+    <market_name>Samsung WAFX-PS</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42761</id>
+    <model_id>WAVE 3</model_id>
+    <market_name>Blackview WAVE 3</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42762</id>
+    <model_id>WP106</model_id>
+    <market_name>Pretech WP106</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42763</id>
+    <model_id>WT3 Pro</model_id>
+    <market_name>ORCATAB_WT3_Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42764</id>
+    <model_id>Wynn_Pad_EEA</model_id>
+    <market_name>WAWLYN Wynn_Pad_EEA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42765</id>
+    <model_id>X100 Mecha</model_id>
+    <market_name>Hotwav X100 Mecha</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42766</id>
+    <model_id>X100 SE</model_id>
+    <market_name>Hotwav X100 SE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42767</id>
+    <model_id>X109K</model_id>
+    <market_name>URAO X109K_EEA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42768</id>
+    <model_id>X26 Ultra</model_id>
+    <market_name>Hotwav X26 Ultra</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42769</id>
+    <model_id>X5_G</model_id>
+    <market_name>Phone Max X5_G_EEA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42770</id>
+    <model_id>XPLORE 6</model_id>
+    <market_name>Blackview XPLORE 6</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42771</id>
+    <model_id>XPLORE 6 Pro</model_id>
+    <market_name>Blackview XPLORE 6 Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42772</id>
+    <model_id>XPS Googlebook</model_id>
+    <market_name>Dell XPS Googlebook</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42773</id>
+    <model_id>XQ-GH54</model_id>
+    <market_name>Sony Xperia 10 VIII</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42774</id>
+    <model_id>XQ-GH74</model_id>
+    <market_name>Sony Xperia 10 VIII</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42775</id>
+    <model_id>XT1</model_id>
+    <market_name>XTRA XT1</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42776</id>
+    <model_id>XT2673-1</model_id>
+    <market_name>Motorola moto pad 70</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42777</id>
+    <model_id>XT2673-2</model_id>
+    <market_name>Motorola moto pad 70</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42778</id>
+    <model_id>X_AGE_Leap</model_id>
+    <market_name>X-Age X_AGE_Leap</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42779</id>
+    <model_id>Z</model_id>
+    <market_name>G-Tab Z</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42780</id>
+    <model_id>Z-PAD SE ZP105-SE</model_id>
+    <market_name>ZEED Z-PAD_SE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42781</id>
+    <model_id>Z168_E</model_id>
+    <market_name>ZIOVO Z168_E</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42782</id>
+    <model_id>ZENO 6 Pro</model_id>
+    <market_name>Blackview ZENO 6 Pro</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42783</id>
+    <model_id>ZEUS HALO</model_id>
+    <market_name>SPC ZEUS_HALO_EEA</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42784</id>
+    <model_id>edu-africa2026_ROW</model_id>
+    <market_name>edu-africa2026_ROW</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42785</id>
+    <model_id>fap6_rk76</model_id>
+    <market_name>fiscat fap6_rk76</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42786</id>
+    <model_id>helio 23</model_id>
+    <market_name>helio_23</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42787</id>
+    <model_id>helio 65</model_id>
+    <market_name>helio_65</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42788</id>
+    <model_id>i18 Pro Max</model_id>
+    <market_name>LUO(A) i18 Pro Max</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42789</id>
+    <model_id>iDataP5</model_id>
+    <market_name>iDataP5</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42790</id>
+    <model_id>iKids20_A16_JAE</model_id>
+    <market_name>Plimpton iKids20_A16_JAE</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42791</id>
+    <model_id>iPA2691</model_id>
+    <market_name>iQOO Pad Ultra</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42792</id>
+    <model_id>iPlay80Mini</model_id>
+    <market_name>Alldocube iPlay80Mini</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42793</id>
+    <model_id>itel C672N</model_id>
+    <market_name>itel CITY 300 5G</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42794</id>
+    <model_id>itel P11003L</model_id>
+    <market_name>Itel P11003L-OP</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42795</id>
+    <model_id>moose on uxc10</model_id>
+    <market_name>Volvo</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42796</id>
+    <model_id>myBoard_Horizon</model_id>
+    <market_name>myBoard_Horizon</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
+  </device>
+  <device>
+    <id>42797</id>
+    <model_id>nissan aivi2e high</model_id>
+    <market_name>NissanConnect</market_name>
+    <platform>Android</platform>
+    <camera_position_portrait>TOP</camera_position_portrait>
+    <updated_at>2026-10-01T00:00:00Z</updated_at>
   </device>
 </devices>
